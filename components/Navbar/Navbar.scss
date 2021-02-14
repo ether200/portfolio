@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  height: 5rem;
+  background: transparent;
+  position: relative;
+
+  &__center {
+    width: 90vw;
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    ul {
+      display: flex;
+
+      li:not(:last-of-type) {
+        margin-right: 2rem;
+      }
+
+      select {
+        background: $color-terciary;
+        width: 2.7rem;
+        color: #fff;
+        font-family: $font-primary;
+        outline: none;
+        padding: 0 0.6rem;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        font-weight: 700;
+        border: none;
+        appearance: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+      }
+
+      a {
+        color: #fff;
+        padding: 0.3rem 0;
+        font-family: $font-primary;
+        font-weight: 700;
+        text-transform: initial;
+        letter-spacing: 0.4rem;
+        transition: all 0.3s linear;
+
+        &:hover {
+          color: $color-terciary;
+          border-bottom: 2px solid $color-terciary;
+        }
+      }
+    }
+  }
+}

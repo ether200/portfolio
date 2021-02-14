@@ -1,0 +1,182 @@
+.projects {
+  padding: 5rem 0;
+  background-image: radial-gradient(
+      circle at 13% 47%,
+      rgba(140, 140, 140, 0.03) 0%,
+      rgba(140, 140, 140, 0.03) 25%,
+      transparent 25%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 28% 63%,
+      rgba(143, 143, 143, 0.03) 0%,
+      rgba(143, 143, 143, 0.03) 16%,
+      transparent 16%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 81% 56%,
+      rgba(65, 65, 65, 0.03) 0%,
+      rgba(65, 65, 65, 0.03) 12%,
+      transparent 12%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 26% 48%,
+      rgba(60, 60, 60, 0.03) 0%,
+      rgba(60, 60, 60, 0.03) 6%,
+      transparent 6%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 97% 17%,
+      rgba(150, 150, 150, 0.03) 0%,
+      rgba(150, 150, 150, 0.03) 56%,
+      transparent 56%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(25, 25, 25, 0.03) 0%,
+      rgba(25, 25, 25, 0.03) 36%,
+      transparent 36%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 55% 52%,
+      rgba(69, 69, 69, 0.03) 0%,
+      rgba(69, 69, 69, 0.03) 6%,
+      transparent 6%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+
+  &__center {
+    max-width: 1250px;
+    width: 95vw;
+    margin: 0 auto;
+
+    h1 {
+      text-align: center;
+      font-size: 3.5rem;
+      color: $color-primary;
+      font-weight: 500;
+    }
+
+    &--underline {
+      width: 6rem;
+      height: 0.4rem;
+      background-color: $color-terciary;
+      margin: 0 auto 2rem auto;
+    }
+
+    &__project {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      align-items: center;
+      margin: 4rem 0;
+
+      &__img {
+        position: relative;
+        grid-column: 1 / span 8;
+        grid-row: 1 / 1;
+        height: 45rem;
+        box-shadow: $dark-shadow;
+        img {
+          overflow: hidden;
+          border-radius: 0.6rem;
+        }
+      }
+
+      &__img:nth-of-type(even) {
+        grid-column: 5 / -1;
+        grid-row: 1 / 1;
+      }
+
+      &__info {
+        box-shadow: $dark-shadow;
+        background-color: $color-primary;
+        grid-row: 1 / 1;
+        z-index: 1;
+        grid-column: 5 / 12;
+        padding: 2rem;
+        color: #fff;
+        border-radius: 0.6rem;
+
+        h2 {
+          margin-bottom: 1rem;
+        }
+
+        &__text {
+          p {
+            word-spacing: 3px;
+          }
+        }
+
+        &__stack {
+          margin-top: 1.5rem;
+
+          span:not(:last-of-type) {
+            margin-right: 0.8rem;
+          }
+
+          span {
+            display: inline-block;
+            cursor: context-menu;
+            padding: 0.3rem;
+            margin-bottom: 0.8rem;
+            color: $color-primary;
+            background-color: #fff;
+            border-radius: 0.4rem;
+            font-family: $font-primary;
+            font-weight: bold;
+            font-size: 1.4rem;
+            text-transform: capitalize;
+          }
+        }
+
+        &__links {
+          margin-top: 1.5rem;
+
+          &__icon {
+            color: #fff;
+            margin-right: 0.8rem;
+            font-size: 2rem;
+            transition: all 0.3s linear;
+
+            &:hover {
+              transform: scale(1.2);
+              color: $color-terciary;
+            }
+
+            &--secondary {
+              &:hover {
+                transform: scale(1.2);
+                color: $color-primary;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__project:nth-of-type(odd) &__project__img {
+      grid-column: 5 / -1;
+      grid-row: 1 / 1;
+    }
+
+    &__project:nth-of-type(odd) &__project__info {
+      grid-column: 2 / span 7;
+      grid-row: 1 / 1;
+      background-color: $color-secondary;
+
+      &__links {
+        &__icon {
+          &:hover {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+  }
+}
