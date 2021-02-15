@@ -11,7 +11,6 @@ export default {
     description: `<p>
     July is an ecommerce platform that was done around the concept of SSR (Server-Side-Rendering), using the methods provided by NextJS
     (React-Framework).
-    <br />
     Some of it's functionalities are: account register, product listing by category, product page, cart system, virtual payment with stripe, etc.
     <br />
     You can see the app running and the code in the links below.
@@ -32,8 +31,8 @@ export default {
   <br />
   Besides of being in a need for a work, another reason for which I'd like to be part of a team is that I want to get to know different developers and learn from them, consequently making me evolve as developer.
   <br />
-  I consider myself an easy person to deal with, I have no shame of admitting when I'm wrong and I'm always open to listen. If you would like me to be part of your team, I leave a link to my resume below.
-</p>`,
+  I consider myself an easy person to deal with, I have no shame of admitting when I'm wrong and I'm always open to listen. If you would like me to be part of your team, I leave a link to my</p> <a href="#">resume</a>.
+`,
   aboutSalute: `<p>
   Cheers, <span>Ivan</span>.
   </p>`,

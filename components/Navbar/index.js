@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { Link } from "react-scroll";
 
 const Navbar = ({ text }) => {
   const router = useRouter();
@@ -14,10 +15,14 @@ const Navbar = ({ text }) => {
       <div className="navbar__center">
         <ul>
           <li>
-            <a href="#projects">{text.nav1}</a>
+            <Link to="projects" smooth={true} duration={500}>
+              {text.nav1}
+            </Link>
           </li>
           <li>
-            <a href="#about">{text.nav2}</a>
+            <Link to="about" smooth={true} duration={500}>
+              {text.nav2}
+            </Link>
           </li>
           <li>
             <select defaultValue={locale} onChange={changeLanguage}>

@@ -1,6 +1,6 @@
-import React from "react";
 import Image from "next/image";
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa";
+import FadeInWhenVisible from "../../Animation/FadeInWhenVisible";
 
 const Projects = ({ text }) => {
   return (
@@ -9,15 +9,22 @@ const Projects = ({ text }) => {
         <h1>{text.projectTitle}</h1>
         <div className="projects__center--underline"></div>
         <div className="projects__center__project">
-          <div className="projects__center__project__img">
+          <FadeInWhenVisible
+            divClass="projects__center__project__img"
+            fadeFrom="left"
+          >
             <Image
               src="/July-bookstore.png"
               alt="Bookstore ecommerce"
               layout="fill"
               objectFit="fill"
             />
-          </div>
-          <div className="projects__center__project__info">
+          </FadeInWhenVisible>
+
+          <FadeInWhenVisible
+            divClass="projects__center__project__info"
+            fadeFrom="right"
+          >
             <h2>{text.project1.title}</h2>
             <div
               className="projects__center__project__info__text"
@@ -42,18 +49,24 @@ const Projects = ({ text }) => {
                 <FaShareSquare className="projects__center__project__info__links__icon" />
               </a>
             </div>
-          </div>
+          </FadeInWhenVisible>
         </div>
         <div className="projects__center__project">
-          <div className="projects__center__project__img">
+          <FadeInWhenVisible
+            divClass="projects__center__project__img"
+            fadeFrom="right"
+          >
             <Image
               src="/Resource-manager.png"
               alt="Bookstore ecommerce"
               layout="fill"
               objectFit="fill"
             />
-          </div>
-          <div className="projects__center__project__info">
+          </FadeInWhenVisible>
+          <FadeInWhenVisible
+            divClass="projects__center__project__info"
+            fadeFrom="left"
+          >
             <h2>{text.project2.title}</h2>
             <div
               className="projects__center__project__info__text"
@@ -77,18 +90,24 @@ const Projects = ({ text }) => {
                 <FaShareSquare className="projects__center__project__info__links__icon" />
               </a>
             </div>
-          </div>
+          </FadeInWhenVisible>
         </div>
         <div className="projects__center__project">
-          <div className="projects__center__project__img">
+          <FadeInWhenVisible
+            divClass="projects__center__project__img"
+            fadeFrom="left"
+          >
             <Image
               src="/July-bookstore.png"
               alt="Bookstore ecommerce"
               layout="fill"
               objectFit="fill"
             />
-          </div>
-          <div className="projects__center__project__info">
+          </FadeInWhenVisible>
+          <FadeInWhenVisible
+            divClass="projects__center__project__info"
+            fadeFrom="right"
+          >
             <h2>July, a book ecommerce platform</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
@@ -111,7 +130,7 @@ const Projects = ({ text }) => {
                 <FaShareSquare className="projects__center__project__info__links__icon" />
               </a>
             </div>
-          </div>
+          </FadeInWhenVisible>
         </div>
       </div>
     </div>

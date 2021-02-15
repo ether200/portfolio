@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaGithubSquare, FaLinkedin, FaAngleDoubleUp } from "react-icons/fa";
-import { IoIosArrowUp, IoMdArrowUp } from "react-icons/io";
+import { Link } from "react-scroll";
 
 const About = ({ text }) => {
   return (
@@ -15,19 +15,10 @@ const About = ({ text }) => {
               className="about__center__column__text__content"
               dangerouslySetInnerHTML={{ __html: text.aboutDescription }}
             />
-            <button className="about__center__column__text__btn">Resume</button>
             <div
               className="about__center__column__text__content"
               dangerouslySetInnerHTML={{ __html: text.aboutSalute }}
             />
-            {/* <div className="about__center__column__text__links">
-              <a href="#">
-                <FaGithubSquare className="about__center__column__text__links__icon" />
-              </a>
-              <a href="#">
-                <FaLinkedin className="about__center__column__text__links__icon" />
-              </a>
-            </div> */}
           </div>
         </div>
         <div className="about__center__column">
@@ -37,24 +28,20 @@ const About = ({ text }) => {
               alt="hello there"
               layout="fill"
               objectFit="fill"
+              priority={true}
+              quality={100}
             />
           </div>
         </div>
       </div>
       <footer className="about__center__footer">
-        {/* <div className="about__center__footer__arrow">
-          <a href="">
-            <IoMdArrowUp className="about__center__footer__arrow__icon" />
-          </a>
-        </div> */}
-
         <div className="about__center__footer__links">
           <a href="#">
             <FaGithubSquare className="about__center__footer__links__icon" />
           </a>
-          <a href="#hero">
+          <Link to="hero" smooth={true} duration={500}>
             <FaAngleDoubleUp className="about__center__footer__links__icon about__center__footer__links__icon--color" />
-          </a>
+          </Link>
           <a href="#">
             <FaLinkedin className="about__center__footer__links__icon" />
           </a>

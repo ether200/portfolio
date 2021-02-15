@@ -12,7 +12,6 @@ export default {
         July es una plataforma ecommerce hecha bajo los conceptos SSR
         (Server-Side-Rendering), utilizando los metodos que provee NextJS
         (React-Framework).
-        <br />
         Entre sus funcionalidades se encuentran: registro de cuentas, listado
         de productos por categorias, pagina de producto, sistema de carro, pagos
         virtuales con stripe, etc.
@@ -46,9 +45,9 @@ export default {
   <br />
   Me considero una persona facil de tratar, sin temor alguno de
   admitir errores propios y dispuesto siempre a escuchar. Si les
-  gustaria que forme parte de su equipo, les dejo un enlace con mi
-  curriculum.
-</p>`,
+  gustaria que forme parte de su equipo, les dejo un enlace con mi</p>
+  <a href=#>curriculum</a>.
+`,
   aboutSalute: `
   <p>
   Saludos, <span>Ivan</span>.

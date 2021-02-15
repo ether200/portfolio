@@ -13,6 +13,10 @@
     align-items: center;
     justify-content: flex-end;
 
+    @include MediaQuery(550px) {
+      justify-content: center;
+    }
+
     ul {
       display: flex;
 
@@ -46,6 +50,7 @@
         transition: all 0.3s linear;
 
         &:hover {
+          cursor: pointer;
           color: $color-terciary;
           border-bottom: 2px solid $color-terciary;
         }
