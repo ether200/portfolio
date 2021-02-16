@@ -3,6 +3,29 @@ $color-secondary: #7a2048;
 // $color-terciary: #be1558;
 $color-terciary: #e52165;
 
+$main-background: radial-gradient(
+    circle at 21% 44%,
+    rgba(23, 23, 23, 0.05) 0%,
+    rgba(23, 23, 23, 0.05) 50%,
+    rgba(109, 109, 109, 0.05) 50%,
+    rgba(109, 109, 109, 0.05) 100%
+  ),
+  radial-gradient(
+    circle at 21% 96%,
+    rgba(92, 92, 92, 0.05) 0%,
+    rgba(92, 92, 92, 0.05) 50%,
+    rgba(199, 199, 199, 0.05) 50%,
+    rgba(199, 199, 199, 0.05) 100%
+  ),
+  radial-gradient(
+    circle at 25% 37%,
+    rgba(230, 230, 230, 0.05) 0%,
+    rgba(230, 230, 230, 0.05) 50%,
+    rgba(25, 25, 25, 0.05) 50%,
+    rgba(25, 25, 25, 0.05) 100%
+  ),
+  linear-gradient(440deg, rgb(122, 32, 72), rgb(30, 39, 97));
+
 $light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 $dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 

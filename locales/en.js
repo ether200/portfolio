@@ -1,7 +1,7 @@
 export default {
   nav1: "Projects",
   nav2: "About me",
-  heroTitle: "Hi, I'm Ivan Muntian",
+  heroTitle: "Hi, I'm Iván Muntian",
   heroDescription:
     "Front end developer with an approach towards a better user experience",
   heroBtn: "See Projects",
@@ -25,15 +25,23 @@ export default {
     The code for both the frontend and backend, including the running app are in the links below.
   </p>`,
   },
+  project3: {
+    title: "My portfolio",
+    description: `<p>
+    Static portfolio page made with NextJS. it supports translation to spanish and english thanks to i18n (internationalization) and it's built-in support with NextJS.
+    <br />
+    This project also contains some subtle animations implemented with Framer Motion. You can see the code in the link below.
+    </p>`,
+  },
   aboutTitle: "A bit about me...",
   aboutDescription: `<p>
   I'm currently looking for my first job experience in the web development market. I'd like to be part of an organization that lets me expand my knowledge about the web and it's vast world of technologies
   <br />
   Besides of being in a need for a work, another reason for which I'd like to be part of a team is that I want to get to know different developers and learn from them, consequently making me evolve as developer.
   <br />
-  I consider myself an easy person to deal with, I have no shame of admitting when I'm wrong and I'm always open to listen. If you would like me to be part of your team, I leave a link to my</p> <a href="#">resume</a>.
+  I consider myself an easy person to deal with, without shame of admitting when I'm wrong and I'm always open to listen. If you would like me to be part of your team, I leave a link to my</p> <a href="#">resume</a>.
 `,
   aboutSalute: `<p>
-  Cheers, <span>Ivan</span>.
+  Cheers, <span>Iván</span>.
   </p>`,
 };

@@ -37,8 +37,6 @@ const FadeInWhenVisible = ({ children, divClass, fadeFrom }) => {
     }
   };
 
-  const x = fadeFrom === "right" ? 100 : -100;
-
   useEffect(() => {
     if (inView) {
       controls.start("visible");

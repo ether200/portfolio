@@ -47,7 +47,7 @@ const About = ({ text }) => {
           </a>
         </div>
         <div className="about__center__footer__underline"></div>
-        <p>&copy; 2021, Ivan Muntian.</p>
+        <p>&copy; 2021, Iván Muntian.</p>
       </footer>
     </div>
   );

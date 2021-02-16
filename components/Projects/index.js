@@ -98,8 +98,8 @@ const Projects = ({ text }) => {
             fadeFrom="left"
           >
             <Image
-              src="/July-bookstore.png"
-              alt="Bookstore ecommerce"
+              src="/Portfolio.png"
+              alt="My portfolio"
               layout="fill"
               objectFit="fill"
             />
@@ -108,19 +108,17 @@ const Projects = ({ text }) => {
             divClass="projects__center__project__info"
             fadeFrom="right"
           >
-            <h2>July, a book ecommerce platform</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
-              doloremque quibusdam distinctio libero odit modi sunt voluptatem
-              debitis dicta a praesentium nesciunt autem quis mollitia ducimus
-              nam error minus cum, animi nulla ipsa! Atque magnam esse
-              consequatur fuga perferendis dolores dolor, voluptatem nostrum
-              totam minus hic eos ducimus sapiente quaerat.
-            </p>
+            <h2>{text.project3.title}</h2>
+            <div
+              className="projects__center__project__info__text"
+              dangerouslySetInnerHTML={{ __html: text.project3.description }}
+            />
             <div className="projects__center__project__info__stack">
-              <span>React</span>
-              <span>Next</span>
-              <span>Strapi</span>
+              <span>Framer Emotion</span>
+              <span>i18n</span>
+              <span>NextJS</span>
+              <span>React-Scroll</span>
+              <span>Sass</span>
             </div>
             <div className="projects__center__project__info__links">
               <a href="#">

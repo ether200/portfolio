@@ -3,3 +3,15 @@
     @content;
   }
 }
+
+@mixin centerElement {
+  max-width: 1250px;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+@mixin underline {
+  width: 6rem;
+  height: 0.4rem;
+  background-color: $color-terciary;
+}

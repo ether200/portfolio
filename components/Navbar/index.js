@@ -26,8 +26,8 @@ const Navbar = ({ text }) => {
           </li>
           <li>
             <select defaultValue={locale} onChange={changeLanguage}>
-              <option value="es">Es</option>
-              <option value="en">En</option>
+              <option value="es">ES</option>
+              <option value="en">EN</option>
             </select>
           </li>
         </ul>
