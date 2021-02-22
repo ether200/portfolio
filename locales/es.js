@@ -46,15 +46,14 @@ export default {
   formar parte de una organización que me permita expandir mis
   conocimientos sobre la web y su vasto mundo de tecnologías.
   <br />
-  Ademas de necesitar trabajar, otro motivo por el cual me gustaría
+  Además de necesitar trabajar, otro motivo por el cual me gustaría
   formar parte de un equipo es el poder relacionarme con diferentes
-  desarrolladores y aprender algo de todos, logrando en efecto que
-  evolucione como desarrollador.
+  desarrolladores y aprender algo de todos logrando así, crecer 
+  como desarrollador.
   <br />
-  Me considero una persona fácil de tratar, sin temor alguno de
-  admitir errores propios y dispuesto siempre a escuchar. Si les
-  gustaría que forme parte de su equipo, les dejo un enlace con mi</p>
-  <a href=#>curriculum</a>.
+  Me considero una persona de trato simple, dispuesto a escuchar distintos
+  puntos de vista. Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href=#>curriculum</a>.
+  </p>
 `,
   aboutSalute: `
   <p>
