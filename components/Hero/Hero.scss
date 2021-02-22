@@ -1,9 +1,8 @@
 .hero {
-  height: calc(100vh + 5rem);
+  height: calc(100vh + 7rem);
   width: 100%;
   background-image: $main-background;
-  margin-top: -5rem;
-  padding-top: 5rem;
+  margin-top: -7rem;
   overflow: none;
 
   &__center {
@@ -19,14 +18,18 @@
     &__content {
       margin-top: -5rem;
       color: #fff;
+      word-spacing: 0.5rem;
+      font-size: 2.7rem;
 
       h1 {
-        font-size: 4.5rem;
-        font-weight: 600;
+        font-weight: bold;
+        span {
+          color: $color-terciary;
+        }
       }
 
       h4 {
-        font-size: 2rem;
+        font-weight: 400;
         margin-bottom: 2rem;
       }
 
@@ -54,21 +57,19 @@
       }
 
       @include MediaQuery(730px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-
-        h1 {
-          margin-bottom: 1rem;
-        }
-
-        h4 {
-          margin-bottom: 2.5rem;
-        }
       }
 
       @include MediaQuery(550px) {
-        h1 {
-          font-size: 3.5rem;
-        }
+        font-size: 2.2rem;
+      }
+
+      @include MediaQuery(374px) {
+        font-size: 2rem;
       }
     }
   }

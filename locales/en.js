@@ -1,9 +1,8 @@
 export default {
   nav1: "Projects",
   nav2: "About me",
-  heroTitle: "Hi, I'm Iván Muntian",
-  heroDescription:
-    "Front end developer with an approach towards a better user experience",
+  heroTitle: "Hello, I'm ",
+  heroDescription: "Front End Developer.",
   heroBtn: "See Projects",
   projectTitle: "Projects",
   project1: {

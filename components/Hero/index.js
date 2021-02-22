@@ -6,7 +6,10 @@ const Hero = ({ text }) => {
     <header className="hero" id="hero">
       <div className="hero__center">
         <FadeInWhenVisible divClass="hero__center__content" fadeFrom="bottom">
-          <h1>{text.heroTitle}</h1>
+          <h1>
+            {text.heroTitle}
+            <span>Iván.</span>
+          </h1>
           <h4>{text.heroDescription}</h4>
           <Link to="projects" smooth={true} duration={500} className="btn">
             {text.heroBtn}

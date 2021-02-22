@@ -1,0 +1,29 @@
+[33mcommit b494cea70a64ed5120b331f35c261d5de7b8d1a9[m[33m ([m[1;36mHEAD -> [m[1;32mtesting[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Ivan <ggwpdiaf@gmail.com>
+Date:   Mon Feb 22 05:10:13 2021 -0300
+
+    changed locales
+
+[33mcommit 1f6834b2c44963587f24fca36f78580f59f6fc4d[m
+Author: Ivan <ggwpdiaf@gmail.com>
+Date:   Mon Feb 15 23:55:56 2021 -0300
+
+    fixed some css
+
+[33mcommit d68a9bd4f03b4908da2c6bff07710bffdeb94f34[m
+Author: Ivan <ggwpdiaf@gmail.com>
+Date:   Mon Feb 15 04:53:44 2021 -0300
+
+    added animation, react-scroll, some querys
+
+[33mcommit 4659c671a9b535e870c2a39df674da65e447096f[m
+Author: Ivan <ggwpdiaf@gmail.com>
+Date:   Sun Feb 14 05:36:05 2021 -0300
+
+    first commit
+
+[33mcommit 95025444a8acf07719f02370d24cdd10650fe8f5[m
+Author: Ivan <ggwpdiaf@gmail.com>
+Date:   Thu Feb 11 17:52:59 2021 -0300
+
+    Initial commit from Create Next App
