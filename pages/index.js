@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import en from "../locales/en";
 import es from "../locales/es";
 import Navbar from "../components/Navbar";
@@ -6,18 +5,25 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import About from "../components/About";
 
-const Home = () => {
-  const router = useRouter();
-  const { locale } = router;
-  const text = locale === "es" ? es : en;
+const Home = ({ locale }) => {
+  const localeObj = locale === "es" ? es : en;
+
   return (
     <>
-      <Navbar text={text} />
-      <Hero text={text} />
-      <Projects text={text} />
-      <About text={text} />
+      <Navbar text={localeObj} />
+      <Hero text={localeObj} />
+      <Projects text={localeObj} />
+      <About text={localeObj} />
     </>
   );
+};
+
+export const getStaticProps = ({ locale }) => {
+  return {
+    props: {
+      locale,
+    },
+  };
 };
 
 export default Home;

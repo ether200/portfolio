@@ -18,6 +18,7 @@ const Projects = ({ text }) => {
               alt="Bookstore ecommerce"
               layout="fill"
               objectFit="fill"
+              quality={100}
             />
           </FadeInWhenVisible>
 
@@ -42,10 +43,16 @@ const Projects = ({ text }) => {
               <span>Yup</span>
             </div>
             <div className="projects__center__project__info__links">
-              <a href="#">
+              <a
+                href="https://github.com/ether200/july-frontend.git"
+                target="_blank"
+              >
                 <FaGithubSquare className="projects__center__project__info__links__icon" />
               </a>
-              <a href="#">
+              <a
+                href="https://july-frontend-ewdm8ykcl-ether200.vercel.app"
+                target="_blank"
+              >
                 <FaShareSquare className="projects__center__project__info__links__icon" />
               </a>
             </div>
@@ -61,6 +68,7 @@ const Projects = ({ text }) => {
               alt="Bookstore ecommerce"
               layout="fill"
               objectFit="fill"
+              quality={100}
             />
           </FadeInWhenVisible>
           <FadeInWhenVisible
@@ -83,10 +91,16 @@ const Projects = ({ text }) => {
               <span>Typescript</span>
             </div>
             <div className="projects__center__project__info__links">
-              <a href="#">
+              <a
+                href="https://github.com/ether200/resource-manager.git"
+                target="_blank"
+              >
                 <FaGithubSquare className="projects__center__project__info__links__icon" />
               </a>
-              <a href="#">
+              <a
+                href="https://frozen-everglades-49253.herokuapp.com"
+                target="_blank"
+              >
                 <FaShareSquare className="projects__center__project__info__links__icon" />
               </a>
             </div>
@@ -102,6 +116,7 @@ const Projects = ({ text }) => {
               alt="My portfolio"
               layout="fill"
               objectFit="fill"
+              quality={100}
             />
           </FadeInWhenVisible>
           <FadeInWhenVisible
@@ -121,11 +136,11 @@ const Projects = ({ text }) => {
               <span>Sass</span>
             </div>
             <div className="projects__center__project__info__links">
-              <a href="#">
+              <a
+                href="https://github.com/ether200/portfolio.git"
+                target="_blank"
+              >
                 <FaGithubSquare className="projects__center__project__info__links__icon" />
-              </a>
-              <a href="#">
-                <FaShareSquare className="projects__center__project__info__links__icon" />
               </a>
             </div>
           </FadeInWhenVisible>

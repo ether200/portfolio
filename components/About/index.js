@@ -28,7 +28,6 @@ const About = ({ text }) => {
               alt="hello there"
               layout="fill"
               objectFit="fill"
-              priority={true}
               quality={100}
             />
           </div>
