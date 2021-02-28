@@ -10,7 +10,7 @@ export default {
     description: `<p>
     July is an ecommerce platform that was done around the concept of SSR (Server-Side-Rendering), using the methods provided by NextJS
     (React-Framework).
-    Some of it's functionalities are: account register, product listing by category, product page, cart system, virtual payment with stripe, etc.
+    Some of it's functionalities are: account register, product listing by category, product page, cart system, virtual payment with stripe, and more.
     <br />
     You can see the app running and the code in the links below.
   </p>`,
@@ -19,7 +19,7 @@ export default {
     title: "Educational resources manager",
     description: `<p>
     My first project using the MERN stack. it was done to serve the purpose of managing my educational resources videos.
-    It supports the CRUD operations, account registry, form validation, etc.
+    It supports the CRUD operations, account registry, form validation, video player.
     <br />
     The code for both the frontend and backend, including the running app are in the links below.
   </p>`,

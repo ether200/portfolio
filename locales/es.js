@@ -13,7 +13,7 @@ export default {
     (React-Framework).
     Entre sus funcionalidades se encuentran: registro de cuentas, listado
     de productos por categorías, página de producto, sistema de carro, pagos
-    virtuales con stripe, etc.
+    virtuales con stripe, entre otras.
     <br />
     En la parte inferior se encuentran los enlaces para ver la aplicación y
     el codigo.
@@ -23,7 +23,7 @@ export default {
     title: "Gestor de recursos educativos",
     description: `<p>
     Mi primer proyecto utilizando el stack MERN. Hecho con el fin de gestionar mis recursos educativos en formato de video.
-    Soporta las operaciones CRUD, registro de cuentas, validación de formularios, etc.
+    Soporta las operaciones CRUD, registro de cuentas, validación de formularios, reproductor de video.
     <br />
     En la parte inferior se encuentran enlaces de los códigos
     frontend, backend, y también para ver la aplicación en

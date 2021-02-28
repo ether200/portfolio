@@ -50,7 +50,7 @@ const Projects = ({ text }) => {
                 <FaGithubSquare className="projects__center__project__info__links__icon" />
               </a>
               <a
-                href="https://july-frontend-ewdm8ykcl-ether200.vercel.app"
+                href="https://july-frontend-m22a3mmre-ether200.vercel.app/"
                 target="_blank"
               >
                 <FaShareSquare className="projects__center__project__info__links__icon" />
