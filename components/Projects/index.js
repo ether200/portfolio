@@ -19,6 +19,7 @@ const Projects = ({ text }) => {
               layout="fill"
               objectFit="fill"
               quality={100}
+              priority={true}
             />
           </FadeInWhenVisible>
 
@@ -69,6 +70,7 @@ const Projects = ({ text }) => {
               layout="fill"
               objectFit="fill"
               quality={100}
+              priority={true}
             />
           </FadeInWhenVisible>
           <FadeInWhenVisible
@@ -117,6 +119,7 @@ const Projects = ({ text }) => {
               layout="fill"
               objectFit="fill"
               quality={100}
+              priority={true}
             />
           </FadeInWhenVisible>
           <FadeInWhenVisible

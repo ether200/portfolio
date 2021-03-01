@@ -29,6 +29,7 @@ const About = ({ text }) => {
               layout="fill"
               objectFit="fill"
               quality={100}
+              priority={true}
             />
           </div>
         </div>
