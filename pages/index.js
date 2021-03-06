@@ -1,5 +1,6 @@
 import en from "../locales/en";
 import es from "../locales/es";
+import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
@@ -10,6 +11,10 @@ const Home = ({ locale }) => {
 
   return (
     <>
+      <Head>
+        <title>Iván Muntian</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar text={localeObj} />
       <Hero text={localeObj} />
       <Projects text={localeObj} />

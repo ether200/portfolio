@@ -1,124 +1,100 @@
 .about {
   padding: 5rem 0;
   background-image: $main-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 
   &__center {
     @include centerElement;
-    display: flex;
-    flex-wrap: wrap;
 
     @include MediaQuery(600px) {
       width: 90vw;
     }
 
-    &__column {
+    &__text {
+      box-shadow: $dark-shadow;
+      min-height: 50rem;
+      width: 100%;
       display: flex;
       flex-direction: column;
-      flex-basis: 100%;
-      flex: 1;
-      box-shadow: $dark-shadow;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      padding: 3rem;
+      color: $color-primary;
+      border-radius: 1rem;
 
-      &__photo {
-        min-height: 66.3rem;
-        position: relative;
-        border-top-right-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-
-        img {
-          border-top-right-radius: 1rem;
-          border-bottom-right-radius: 1rem;
-        }
+      h1 {
+        font-size: 3.5rem;
       }
 
-      &__text {
-        min-height: 66.3rem;
-        background-color: #fff;
-        padding: 3rem;
-        color: $color-primary;
-        border-top-left-radius: 1rem;
-        border-bottom-left-radius: 1rem;
+      &--underline {
+        @include underline;
+        margin: 2rem auto;
+      }
 
-        h1 {
-          font-size: 3.5rem;
-        }
+      &__content {
+        p {
+          font-weight: 600;
+          line-height: 3rem;
+          word-spacing: 2px;
+          max-width: 100rem;
 
-        &--underline {
-          @include underline;
-          margin: 2rem auto 2rem 0;
-        }
-
-        &__content {
-          p {
-            font-weight: 600;
-            line-height: 2.5rem;
-            word-spacing: 2px;
-
-            &:last-of-type {
-              margin-top: 4rem;
-            }
-
-            span {
-              color: $color-terciary;
-            }
+          &:last-of-type {
+            margin-top: 4rem;
           }
 
-          a {
-            font-weight: 600;
-            font-family: $font-primary;
-            line-height: 2.5rem;
-            word-spacing: 2px;
+          span {
             color: $color-terciary;
           }
         }
-      }
-    }
 
-    @include MediaQuery(1025px) {
-      display: block;
-
-      &__column {
-        &__photo {
-          display: none;
-        }
-
-        &__text {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          padding: 3rem;
-          border-radius: 1rem;
-          text-align: center;
-
-          &--underline {
-            margin: 2rem auto;
-          }
+        a {
+          font-weight: 600;
+          font-family: $font-primary;
+          line-height: 2.5rem;
+          word-spacing: 2px;
+          color: $color-terciary;
         }
       }
     }
 
     @include MediaQuery(600px) {
-      &__column {
-        &__text {
-          padding: 2rem;
-          text-align: left;
+      &__text {
+        padding: 2rem;
+        text-align: left;
 
-          &--underline {
-            margin: 2rem auto 0 0;
-          }
+        &--underline {
+          margin: 2rem auto;
+        }
 
-          h1 {
-            font-size: 3rem;
-          }
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    @include MediaQuery(335px) {
+      &__text {
+        h1 {
+          font-size: 2.5rem;
         }
       }
     }
 
     &__footer {
-      margin-top: 10rem;
+      margin-top: auto;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
+      @include MediaQuery(759px) {
+        margin-top: 5rem;
+      }
 
       &__arrow {
         width: 15rem;

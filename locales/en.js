@@ -34,11 +34,11 @@ export default {
   },
   aboutTitle: "A bit about me...",
   aboutDescription: `<p>
-  I'm currently looking for my first job experience in the web development market. I'd like to be part of an organization that lets me expand my knowledge about the web and it's vast world of technologies.
+  I consider myself an easy person to deal with, always open to listen different points of view. I'm currently looking for my first job experience in the web development market. I'd like to be part of an organization that lets me expand my knowledge about the web and it's vast world of technologies.
   <br />
-  I also would like to meet different developers and grow personally and professionally to be able to bring a better service.
   <br />
-  I consider myself an easy person to deal with, always open to listen different points of view. If you would like me to be part of your team, I leave a link to my <a href="#">resume</a>.</p>
+  I'm also interested in meeting different developers, grow personally and professionally to be able to serve a better service.
+  If you would like me to be part of your team, I leave a link to my <a href="https://drive.google.com/file/d/1H2Ajzr5FZcUlcVSfCnUeIV7IdmspDj07/view?usp=sharing" target="_blank">resume</a>.</p>
 `,
   aboutSalute: `<p>
   Cheers, Iván.

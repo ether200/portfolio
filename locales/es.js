@@ -1,6 +1,6 @@
 export default {
   nav1: "Proyectos",
-  nav2: "Sobre mi",
+  nav2: "Sobre mí",
   heroTitle: "Hola, soy ",
   heroDescription: "Desarrollador Front End.",
   heroBtn: "Ver proyectos",
@@ -38,17 +38,17 @@ export default {
     Además, este proyecto contiene unas sutiles animaciones implementadas con Framer Motion. Puedes ver el codigo en el enlace de la parte inferior.
     </p>`,
   },
-  aboutTitle: "Un poco sobre mi...",
+  aboutTitle: "Un poco sobre mí...",
   aboutDescription: `<p>
-  Actualmente me encuentro en busca de mi primer experiencia laboral
+  Me considero una persona de trato simple, dispuesto a escuchar distintos
+  puntos de vista. Actualmente me encuentro en busca de mi primer experiencia laboral
   en el mercado de desarrollo de aplicaciones Web. Me gustaría
   formar parte de una organización que me permita expandir mis
   conocimientos sobre la web y su vasto mundo de tecnologías.
   <br />
-  Además me gustaría poder relacionarme con distintos desarrolladores y crecer a nivel personal y profesional para poder brindar un mejor servicio.
   <br />
-  Me considero una persona de trato simple, dispuesto a escuchar distintos
-  puntos de vista. Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href=#>curriculum</a>.
+  También estoy interesado en poder relacionarme con distintos desarrolladores, crecer a nivel personal y profesional para poder brindar un mejor servicio.
+  Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://drive.google.com/file/d/1H2Ajzr5FZcUlcVSfCnUeIV7IdmspDj07/view?usp=sharing" target="_blank">curriculum</a>.
   </p>
 `,
   aboutSalute: `
