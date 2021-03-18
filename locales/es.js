@@ -2,7 +2,7 @@ export default {
   nav1: "Proyectos",
   nav2: "Sobre mí",
   heroTitle: "Hola, soy ",
-  heroDescription: "Desarrollador Front End.",
+  heroDescription: "Desarrollador Web.",
   heroBtn: "Ver proyectos",
   projectTitle: "Proyectos",
   project1: {
@@ -38,6 +38,15 @@ export default {
     Además, este proyecto contiene unas sutiles animaciones implementadas con Framer Motion. Puedes ver el codigo en el enlace de la parte inferior.
     </p>`,
   },
+  project4: {
+    title: "Blog tecnológico",
+    description: `<p>
+    Página estática estilo blog hecha con Tailwind CSS y NextJS. Soporta modo light / dark y lectura de archivos escritos en lenguage de marcado (Markdown).
+    <br />
+    Nuevos posts se agregaran proximamente.
+    </p>
+    `,
+  },
   aboutTitle: "Un poco sobre mí...",
   aboutDescription: `<p>
   Me considero una persona de trato simple, dispuesto a escuchar distintos
@@ -48,7 +57,7 @@ export default {
   <br />
   <br />
   También estoy interesado en poder relacionarme con distintos desarrolladores, crecer a nivel personal y profesional para poder brindar un mejor servicio.
-  Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://drive.google.com/file/d/1H2Ajzr5FZcUlcVSfCnUeIV7IdmspDj07/view?usp=sharing" target="_blank">curriculum</a>.
+  Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://drive.google.com/file/d/1i2TO5b_Ok5n2I6tklYH7n0dSdW0FoFxb/view?usp=sharing" target="_blank">curriculum</a>.
   </p>
 `,
   aboutSalute: `

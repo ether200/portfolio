@@ -148,6 +148,46 @@ const Projects = ({ text }) => {
             </div>
           </FadeInWhenVisible>
         </div>
+        <div className="projects__center__project">
+          <FadeInWhenVisible
+            divClass="projects__center__project__img"
+            fadeFrom="left"
+          >
+            <Image
+              src="/Blog.png"
+              alt="Tech blog"
+              layout="fill"
+              objectFit="fill"
+              quality={100}
+              priority={true}
+            />
+          </FadeInWhenVisible>
+
+          <FadeInWhenVisible
+            divClass="projects__center__project__info"
+            fadeFrom="right"
+          >
+            <h2>{text.project4.title}</h2>
+            <div
+              className="projects__center__project__info__text"
+              dangerouslySetInnerHTML={{ __html: text.project4.description }}
+            />
+            <div className="projects__center__project__info__stack">
+              <span>NextJS</span>
+              <span>Markdown</span>
+              <span>MDX</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <div className="projects__center__project__info__links">
+              <a href="https://github.com/ether200/tech-blog" target="_blank">
+                <FaGithubSquare className="projects__center__project__info__links__icon" />
+              </a>
+              <a href="https://tech-blog-seven.vercel.app/" target="_blank">
+                <FaShareSquare className="projects__center__project__info__links__icon" />
+              </a>
+            </div>
+          </FadeInWhenVisible>
+        </div>
       </div>
     </div>
   );
