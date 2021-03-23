@@ -1,11 +1,12 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin, FaAngleDoubleUp } from "react-icons/fa";
+import FadeInWhenVisible from "../../Animation/FadeInWhenVisible";
 import { Link } from "react-scroll";
 
 const About = ({ text }) => {
   return (
     <div className="about" id="about">
-      <div className="about__center">
+      <FadeInWhenVisible divClass="about__center" fadeFrom="top">
         <div className="about__center__text">
           <h1>{text.aboutTitle}</h1>
           <div className="about__center__text--underline"></div>
@@ -18,7 +19,7 @@ const About = ({ text }) => {
             dangerouslySetInnerHTML={{ __html: text.aboutSalute }}
           />
         </div>
-      </div>
+      </FadeInWhenVisible>
       <footer className="about__center__footer">
         <div className="about__center__footer__links">
           <a href="https://github.com/ether200" target="_blank">

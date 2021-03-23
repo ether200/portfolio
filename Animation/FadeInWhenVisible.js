@@ -11,12 +11,12 @@ const FadeInWhenVisible = ({ children, divClass, fadeFrom }) => {
       case "right":
         return {
           visible: { x: 0, opacity: 1 },
-          hidden: { x: 100, opacity: 0 },
+          hidden: { x: 300, opacity: 0 },
         };
       case "left":
         return {
           visible: { x: 0, opacity: 1 },
-          hidden: { x: -100, opacity: 0 },
+          hidden: { x: -300, opacity: 0 },
         };
       case "top":
         return {
