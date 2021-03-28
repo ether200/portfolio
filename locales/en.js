@@ -8,7 +8,7 @@ export default {
   project1: {
     title: "July bookstore",
     description: `<p>
-    July is an ecommerce platform that was done around the concept of SSR (Server-Side-Rendering), using the methods provided by NextJS
+    July is an ecommerce platform that was done under the concept of SSR (Server-Side-Rendering), using the methods provided by NextJS
     (React-Framework).
     Some of it's functionalities are: account register, product listing by category, product page, cart system, virtual payment with stripe, and more.
     <br />
