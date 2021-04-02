@@ -1,11 +1,36 @@
 .about {
   padding: 5rem 0;
   background-image: $main-background;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+
+  .custom-shape-divider-top-1617337157 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotateY(360deg);
+    svg {
+      position: relative;
+      display: block;
+      width: calc(150% + 1.3px);
+      height: 30vh;
+    }
+
+    .shape-fill {
+      fill: #ffffff;
+    }
+
+    @include MediaQuery(730px) {
+      display: none;
+    }
+  }
 
   &__center {
     @include centerElement;
@@ -16,6 +41,7 @@
 
     &__text {
       box-shadow: $dark-shadow;
+      position: relative;
       min-height: 50rem;
       width: 100%;
       display: flex;

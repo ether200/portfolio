@@ -3,7 +3,9 @@
   width: 100%;
   background-image: $main-background;
   margin-top: -7rem;
-  overflow: none;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
 
   &__center {
     @include centerElement;
@@ -71,6 +73,30 @@
       @include MediaQuery(374px) {
         font-size: 2rem;
       }
+    }
+  }
+  .custom-shape-divider-bottom-1617333034 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+
+    svg {
+      position: relative;
+      display: block;
+      width: calc(150% + 1.3px);
+      height: 30vh;
+    }
+
+    .shape-fill {
+      fill: #ffffff;
+    }
+
+    @include MediaQuery(730px) {
+      display: none;
     }
   }
 }
