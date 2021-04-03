@@ -1,11 +1,9 @@
 .hero {
-  height: calc(100vh + 7rem);
+  height: 100vh;
   width: 100%;
   background-image: $main-background;
   margin-top: -7rem;
   position: relative;
-  z-index: -1;
-  overflow: hidden;
 
   &__center {
     @include centerElement;
@@ -75,7 +73,7 @@
       }
     }
   }
-  .custom-shape-divider-bottom-1617333034 {
+  &__wave {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -83,6 +81,7 @@
     overflow: hidden;
     line-height: 0;
     z-index: 1;
+    margin-bottom: -5px;
 
     svg {
       position: relative;
@@ -95,7 +94,7 @@
       fill: #ffffff;
     }
 
-    @include MediaQuery(730px) {
+    @include MediaQuery(768px) {
       display: none;
     }
   }

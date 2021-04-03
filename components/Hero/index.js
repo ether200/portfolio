@@ -16,7 +16,7 @@ const Hero = ({ text }) => {
           </Link>
         </FadeInWhenVisible>
       </div>
-      <div className="custom-shape-divider-bottom-1617333034">
+      <div className="hero__wave">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

@@ -8,14 +8,16 @@
   justify-content: center;
   min-height: 100vh;
 
-  .custom-shape-divider-top-1617337157 {
+  &__wave {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotateY(360deg);
+    transform: rotate(180deg);
+    z-index: 1;
+    margin-top: -5px;
     svg {
       position: relative;
       display: block;
@@ -27,7 +29,7 @@
       fill: #ffffff;
     }
 
-    @include MediaQuery(730px) {
+    @include MediaQuery(768px) {
       display: none;
     }
   }
@@ -52,6 +54,7 @@
       padding: 3rem;
       color: $color-primary;
       border-radius: 1rem;
+      z-index: 2;
 
       h1 {
         font-size: 3.5rem;
