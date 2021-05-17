@@ -25,6 +25,11 @@
         margin-right: 2rem;
       }
 
+      li:last-of-type {
+        display: flex;
+        cursor: pointer;
+      }
+
       select {
         -webkit-appearance: none;
         -moz-appearance: none;

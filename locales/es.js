@@ -57,7 +57,7 @@ export default {
   <br />
   <br />
   También estoy interesado en poder relacionarme con distintos desarrolladores, crecer a nivel personal y profesional para poder brindar un mejor servicio.
-  Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://drive.google.com/file/d/1K3lRi8JiBaTrLYxQmhZZ3apbtTIxoJTl/view?usp=sharing" target="_blank">curriculum</a>.
+  Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://drive.google.com/file/d/1HSwzfcgnv-LeWJY-e_WIsg1YiqDtOqDo/view?usp=sharing" target="_blank">curriculum</a>.
   </p>
 `,
   aboutSalute: `

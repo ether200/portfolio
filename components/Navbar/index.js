@@ -1,13 +1,14 @@
 import { useRouter } from "next/router";
 import { Link } from "react-scroll";
+import Image from "next/image";
 
 const Navbar = ({ text }) => {
   const router = useRouter();
   const { locale } = router;
 
-  const changeLanguage = (e) => {
-    const locale = e.target.value;
-    router.push("/", "/", { locale });
+  const changeLanguage = () => {
+    const newLocale = locale !== "es" ? "es" : "en";
+    router.push("/", "/", { locale: newLocale });
   };
 
   return (
@@ -24,11 +25,14 @@ const Navbar = ({ text }) => {
               {text.nav2}
             </Link>
           </li>
-          <li>
-            <select defaultValue={locale} onChange={changeLanguage}>
-              <option value="es">ES</option>
-              <option value="en">EN</option>
-            </select>
+          <li onClick={changeLanguage}>
+            <Image
+              src={locale !== "es" ? "/spain.png" : "/united-kingdom.png"}
+              alt="Switch language"
+              width={22}
+              height={22}
+              layout="fixed"
+            />
           </li>
         </ul>
       </div>

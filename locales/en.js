@@ -47,7 +47,7 @@ export default {
   <br />
   <br />
   I'm also interested in meeting different developers, grow personally and professionally to be able to serve a better service.
-  If you would like me to be part of your team, I leave a link to my <a href="https://drive.google.com/file/d/1K3lRi8JiBaTrLYxQmhZZ3apbtTIxoJTl/view?usp=sharing" target="_blank">resume</a>.</p>
+  If you would like me to be part of your team, I leave a link to my <a href="https://drive.google.com/file/d/1HSwzfcgnv-LeWJY-e_WIsg1YiqDtOqDo/view?usp=sharing" target="_blank">resume</a>.</p>
 `,
   aboutSalute: `<p>
   Cheers, Iván.
