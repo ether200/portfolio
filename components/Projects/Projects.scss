@@ -76,7 +76,11 @@
 
       &__info {
         box-shadow: $dark-shadow;
-        background-color: $color-primary;
+        background-image: radial-gradient(
+          circle at center right,
+          rgb(183, 48, 108),
+          rgb(30, 39, 97)
+        );
         grid-row: 1 / 1;
         z-index: 1;
         grid-column: 5 / 12;
@@ -183,8 +187,11 @@
     &__project:nth-of-type(odd) &__project__info {
       grid-column: 2 / span 7;
       grid-row: 1 / 1;
-      background-color: $color-secondary;
-
+      background-image: radial-gradient(
+        circle at center left,
+        rgb(183, 48, 108),
+        rgb(30, 39, 97)
+      );
       @include MediaQuery(1145px) {
         grid-column: 2 / span 8;
       }

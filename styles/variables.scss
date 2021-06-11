@@ -1,37 +1,64 @@
 $color-primary: #1e2761;
-$color-secondary: #7a2048;
+$color-secondary: #b7306c;
 // $color-terciary: #be1558;
 $color-terciary: #e52165;
 
-$main-background: linear-gradient(
-    90deg,
-    rgba(168, 105, 74, 0.15) 0%,
-    rgba(49, 77, 202, 0.15) 100%
-  ),
-  linear-gradient(180deg, rgb(30, 39, 97), rgb(122, 32, 72));
+$main-background: radial-gradient(
+  circle at center bottom,
+  rgb(183, 48, 108),
+  rgb(30, 39, 97)
+);
 
 // $main-background: radial-gradient(
-//     circle at 21% 44%,
-//     rgba(23, 23, 23, 0.05) 0%,
-//     rgba(23, 23, 23, 0.05) 50%,
-//     rgba(109, 109, 109, 0.05) 50%,
-//     rgba(109, 109, 109, 0.05) 100%
+//     circle at 82% 63%,
+//     rgba(183, 183, 183, 0.09) 0%,
+//     rgba(183, 183, 183, 0.09) 84%,
+//     transparent 84%,
+//     transparent 100%
 //   ),
 //   radial-gradient(
-//     circle at 21% 96%,
-//     rgba(92, 92, 92, 0.05) 0%,
-//     rgba(92, 92, 92, 0.05) 50%,
-//     rgba(199, 199, 199, 0.05) 50%,
-//     rgba(199, 199, 199, 0.05) 100%
+//     circle at 88% 98%,
+//     rgba(232, 232, 232, 0.07) 0%,
+//     rgba(232, 232, 232, 0.07) 15%,
+//     transparent 15%,
+//     transparent 100%
 //   ),
 //   radial-gradient(
-//     circle at 25% 37%,
-//     rgba(230, 230, 230, 0.05) 0%,
-//     rgba(230, 230, 230, 0.05) 50%,
-//     rgba(25, 25, 25, 0.05) 50%,
-//     rgba(25, 25, 25, 0.05) 100%
+//     circle at 77% 83%,
+//     rgba(252, 252, 252, 0.05) 0%,
+//     rgba(252, 252, 252, 0.05) 5%,
+//     transparent 5%,
+//     transparent 100%
 //   ),
-//   linear-gradient(440deg, rgb(122, 32, 72), rgb(30, 39, 97));
+//   radial-gradient(
+//     circle at 64% 0%,
+//     rgba(140, 140, 140, 0.05) 0%,
+//     rgba(140, 140, 140, 0.05) 54%,
+//     transparent 54%,
+//     transparent 100%
+//   ),
+//   radial-gradient(
+//     circle at 57% 86%,
+//     rgba(241, 241, 241, 0.07) 0%,
+//     rgba(241, 241, 241, 0.07) 80%,
+//     transparent 80%,
+//     transparent 100%
+//   ),
+//   radial-gradient(
+//     circle at 17% 93%,
+//     rgba(68, 68, 68, 0.05) 0%,
+//     rgba(68, 68, 68, 0.05) 82%,
+//     transparent 82%,
+//     transparent 100%
+//   ),
+//   radial-gradient(
+//     circle at 85% 70%,
+//     rgba(10, 10, 10, 0.02) 0%,
+//     rgba(10, 10, 10, 0.02) 13%,
+//     transparent 13%,
+//     transparent 100%
+//   ),
+//   linear-gradient(180deg, rgb(30, 39, 97), rgb(183, 48, 108));
 
 $light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 $dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);

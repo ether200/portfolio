@@ -1,6 +1,10 @@
 .about {
   padding: 5rem 0;
-  background-image: $main-background;
+  background-image: radial-gradient(
+    circle at center top,
+    rgb(183, 48, 108),
+    rgb(30, 39, 97)
+  );
   position: relative;
   display: flex;
   flex-direction: column;
