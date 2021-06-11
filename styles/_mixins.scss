@@ -4,6 +4,14 @@
   }
 }
 
+@mixin gradientBackground($pos1, $pos2) {
+  background-image: radial-gradient(
+    circle at $pos1 $pos2,
+    rgb(183, 48, 108),
+    rgb(30, 39, 97)
+  );
+}
+
 @mixin centerElement {
   max-width: 1250px;
   width: 95vw;

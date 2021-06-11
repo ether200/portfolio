@@ -18,11 +18,15 @@ html {
 body {
   height: 100%;
   font-family: $font-primary;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.6rem;
   display: flex;
   flex-direction: column;
   line-height: 1.5;
+}
+
+p {
+  word-spacing: 2px;
 }
 
 ul {
@@ -47,5 +51,19 @@ h4,
 h5,
 h6 {
   font-family: $font-secondary;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e52165;
+  border-radius: 10px;
 }

@@ -1,9 +1,10 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: $main-background;
   margin-top: -7rem;
   position: relative;
+
+  @include gradientBackground(top, left);
 
   &__center {
     @include centerElement;
@@ -29,7 +30,6 @@
       }
 
       h4 {
-        font-weight: 400;
         margin-bottom: 2rem;
       }
 
