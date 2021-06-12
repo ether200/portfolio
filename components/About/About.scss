@@ -57,6 +57,10 @@
       border-radius: 1rem;
       z-index: 2;
 
+      &__accordionWrapper {
+        width: 75%;
+      }
+
       h1 {
         font-size: 3.5rem;
       }

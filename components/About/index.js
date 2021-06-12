@@ -2,8 +2,34 @@ import React from "react";
 import { FaGithubSquare, FaLinkedin, FaAngleDoubleUp } from "react-icons/fa";
 import FadeInWhenVisible from "../../Animation/FadeInWhenVisible";
 import { Link } from "react-scroll";
+import Accordion from "../Accordion";
+
+const questions = [
+  {
+    question: "Quien soy?",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
+  },
+  {
+    question: "Quien soy?",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
+  },
+  {
+    question: "Quien soy?",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
+  },
+  {
+    question: "Quien soy?",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
+  },
+];
 
 const About = ({ text }) => {
+  const [selected, setSelected] = React.useState(false);
+
   return (
     <div className="about" id="about">
       <div className="about__wave">
@@ -21,16 +47,20 @@ const About = ({ text }) => {
       </div>
       <div className="about__center">
         <FadeInWhenVisible divClass="about__center__text" fadeFrom="top">
-          <h1>{text.aboutTitle}</h1>
+          <h1>FAQ</h1>
           <div className="about__center__text--underline"></div>
-          <div
-            className="about__center__text__content"
-            dangerouslySetInnerHTML={{ __html: text.aboutDescription }}
-          />
-          <div
-            className="about__center__text__content"
-            dangerouslySetInnerHTML={{ __html: text.aboutSalute }}
-          />
+          <div className="about__center__text__accordionWrapper">
+            {questions.map((q, i) => (
+              <Accordion
+                key={i}
+                index={i}
+                selected={selected}
+                setSelected={setSelected}
+                question={q.question}
+                content={q.content}
+              />
+            ))}
+          </div>
         </FadeInWhenVisible>
       </div>
       <footer className="about__center__footer">
