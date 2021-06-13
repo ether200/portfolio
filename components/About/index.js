@@ -8,17 +8,17 @@ const questions = [
   {
     question: "Quien soy?",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
+      "Mi nombre es Ivan, me dedico al desarrollo de aplicaciones web. Me especializo en desarrollo front end utilizando React, aunque planeo aprender Vue pronto. Tambien tengo conocimientos backend utilizando Node.js.",
   },
   {
-    question: "Quien soy?",
+    question: "Habilidades tecnicas?",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
+      "Estas son las herramientas que utilizo para trabajar por el momento...",
   },
   {
-    question: "Quien soy?",
+    question: "Planes de carrera?",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
+      "Me gustaria seguir especializandome en front end aprendiendo nuevas tecnologias y campos como ui/ux design, seo, web performance. Tambien me interesan las aplicaciones mobiles, aunque uno nunca sabe lo que depara el futuro y me mantengo abierto.",
   },
   {
     question: "Quien soy?",
@@ -50,7 +50,7 @@ const About = ({ text }) => {
           <h1>FAQ</h1>
           <div className="about__center__text--underline"></div>
           <div className="about__center__text__accordionWrapper">
-            {questions.map((q, i) => (
+            {text.faq.map((q, i) => (
               <Accordion
                 key={i}
                 index={i}

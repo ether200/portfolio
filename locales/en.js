@@ -41,15 +41,28 @@ export default {
     </p>
     `,
   },
-  aboutTitle: "A bit about me...",
-  aboutDescription: `<p>
-  I consider myself an easy person to deal with, always open to listen different points of view. I'm currently looking for my first job experience in the web development market. I'd like to be part of an organization that would let me expand my knowledge about the web and it's vast world of technologies.
-  <br />
-  <br />
-  I'm also interested in meeting different developers, grow personally and professionally to be able to serve a better service.
-  If you would like me to be part of your team, I leave a link to my <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="_blank">resume</a>.</p>
-`,
-  aboutSalute: `<p>
-  Cheers, Iván.
-  </p>`,
+  faq: [
+    {
+      question: "Who am I?",
+      content: `<p>My name is Ivan and I work as a software developer. I specialize in front end development using React for now, planning to learn Vue.js soon. I also have back end knowledge using Node js.</p>`,
+    },
+    {
+      question: "Technical skills?",
+      content: `<p>These are the tools that I work with.</p>
+      <p>Front end:</p> <p><span>html</span> <span>css</span> <span>sass</span> <span>javascript</span> <span>typescript</span> <span>react</span> <span>next.js</span> <span>redux</span> <span>frame motion</span> <span>tailwind css</span> <span>Chakra UI</span></p>
+      <p>Back end:</p> <p><span>Node.js</span> <span>express</span> <span>graphql</span> <span>mongo db</span></p>
+      <p>Tools and Platforms:</p> <p><span>Git</span> <span>GitHub</span> <span>Figma</span> <span>Jest</span></p>
+      `,
+    },
+    {
+      question: "Career plans?",
+      content: `<p>I'd like to keep majoring in front end development, learning new technologies and fields like UI/UX design, seo, web performance and hybrid applications. I'm always open to new opportunities.</p>`,
+    },
+    {
+      question: "Contact?",
+      content: `<p>
+      You can find me in <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank">LinkedIn</a>, see my projects in <a href="https://github.com/ether200" target="__blank">GitHub</a> and download my curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank">here</a>.
+      </p>`,
+    },
+  ],
 };

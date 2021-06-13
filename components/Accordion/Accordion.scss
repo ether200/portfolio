@@ -26,5 +26,24 @@
     transform-origin: top center;
     color: $color-primary;
     text-align: center;
+    font-weight: bold;
+
+    p:not(:last-of-type) {
+      margin-bottom: 1rem;
+    }
+
+    span:not(:last-of-type) {
+      margin-right: 0.8rem;
+    }
+
+    span {
+      @include stackSpan();
+      background-color: $color-primary;
+      color: white;
+    }
+
+    a {
+      color: $color-terciary;
+    }
   }
 }

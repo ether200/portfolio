@@ -47,21 +47,46 @@ export default {
     </p>
     `,
   },
-  aboutTitle: "Un poco sobre mí...",
-  aboutDescription: `<p>
-  Me considero una persona de trato simple, dispuesto a escuchar distintos
-  puntos de vista. Actualmente me encuentro en busca de mi primer experiencia laboral
-  en el mercado de desarrollo de aplicaciones Web. Me gustaría
-  formar parte de una organización que me permita expandir mis
-  conocimientos sobre la web y su vasto mundo de tecnologías.
-  <br />
-  <br />
-  También estoy interesado en poder relacionarme con distintos desarrolladores, crecer a nivel personal y profesional para poder brindar un mejor servicio.
-  Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="_blank">curriculum</a>.
-  </p>
-`,
-  aboutSalute: `
-  <p>
-  Saludos, Iván.
-  </p>`,
+  faq: [
+    {
+      question: "Quien soy?",
+      content:
+        "<p>Mi nombre es Ivan y me dedico al desarrollo de aplicaciones web. Me especializo en desarrollo front end utilizando React por ahora, planeo aprender Vue pronto. Tambien tengo conocimientos back end utilizando Node js.</p>",
+    },
+    {
+      question: "Habilidades tecnicas?",
+      content: `<p>Estas son las herramientas que uso para trabajar.</p>
+      <p>Front end:</p> <p><span>html</span> <span>css</span> <span>sass</span> <span>javascript</span> <span>typescript</span> <span>react</span> <span>next.js</span> <span>redux</span> <span>frame motion</span> <span>tailwind css</span> <span>Chakra UI</span></p>
+      <p>Back end:</p> <p><span>Node.js</span> <span>express</span> <span>graphql</span> <span>mongo db</span></p>
+      <p>Herramientas y plataformas:</p> <p><span>Git</span> <span>GitHub</span> <span>Figma</span> <span>Jest</span></p>
+      `,
+    },
+    {
+      question: "Planes de carrera?",
+      content: `<p>Me gustaria seguir especializandome en front end, aprendiendo nuevas tecnologias y campos como UI/UX design, seo, web performance y aplicaciones hibridas. Me mantengo abierto a cualquier oportunidad.</p>`,
+    },
+    {
+      question: "Contacto?",
+      content: `<p>
+      Pueden encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank">GitHub</a> y descargar mi curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank">aqui</a>.
+      </p>`,
+    },
+  ],
+  //   aboutTitle: "Un poco sobre mí...",
+  //   aboutDescription: `<p>
+  //   Me considero una persona de trato simple, dispuesto a escuchar distintos
+  //   puntos de vista. Actualmente me encuentro en busca de mi primer experiencia laboral
+  //   en el mercado de desarrollo de aplicaciones Web. Me gustaría
+  //   formar parte de una organización que me permita expandir mis
+  //   conocimientos sobre la web y su vasto mundo de tecnologías.
+  //   <br />
+  //   <br />
+  //   También estoy interesado en poder relacionarme con distintos desarrolladores, crecer a nivel personal y profesional para poder brindar un mejor servicio.
+  //   Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="_blank">curriculum</a>.
+  //   </p>
+  // `,
+  //   aboutSalute: `
+  //   <p>
+  //   Saludos, Iván.
+  //   </p>`,
 };

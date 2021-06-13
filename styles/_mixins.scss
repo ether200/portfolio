@@ -23,3 +23,17 @@
   height: 0.4rem;
   background-color: $color-terciary;
 }
+
+@mixin stackSpan {
+  display: inline-block;
+  cursor: context-menu;
+  padding: 0.3rem;
+  margin-bottom: 0.8rem;
+  color: $color-primary;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  font-family: $font-primary;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}

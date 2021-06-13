@@ -33,9 +33,8 @@ const Accordion = ({ index, selected, setSelected, question, content }) => {
               variants={{ collapsed: { scale: 0.8 }, open: { scale: 1 } }}
               transition={{ duration: 0.8 }}
               className="contentContainer__content"
-            >
-              <p>{content}</p>
-            </motion.div>
+              dangerouslySetInnerHTML={{ __html: content }}
+            ></motion.div>
           </motion.div>
         )}
       </AnimatePresence>
