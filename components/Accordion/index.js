@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { BiSortDown, BiSortUp } from "react-icons/bi";
 
 const Accordion = ({ index, selected, setSelected, question, content }) => {
   const isOpen = index === selected;
@@ -13,7 +14,7 @@ const Accordion = ({ index, selected, setSelected, question, content }) => {
         className="questionContainer"
       >
         <h2>{question}</h2>
-        {isOpen ? <span>-</span> : <span>+</span>}
+        {isOpen ? <BiSortUp /> : <BiSortDown />}
       </motion.div>
       <AnimatePresence initial={false}>
         {isOpen && (
