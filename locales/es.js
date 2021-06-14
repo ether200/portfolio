@@ -51,10 +51,10 @@ export default {
     {
       question: "Quien soy?",
       content:
-        "<p>Mi nombre es Ivan y me dedico al desarrollo de aplicaciones web. Me especializo en desarrollo front end utilizando React por ahora, planeo aprender Vue pronto. Tambien tengo conocimientos back end utilizando Node js.</p>",
+        "<p>Mi nombre es Iván y me dedico al desarrollo de aplicaciones web. Me especializo en desarrollo front end utilizando React por ahora, planeo aprender Vue.js pronto. También tengo conocimientos back end utilizando Node js.</p>",
     },
     {
-      question: "Habilidades tecnicas?",
+      question: "Habilidades técnicas?",
       content: `<p>Estas son las herramientas que uso para trabajar.</p>
       <p>Front end:</p> <p><span>html</span> <span>css</span> <span>sass</span> <span>javascript</span> <span>typescript</span> <span>react</span> <span>next.js</span> <span>redux</span> <span>frame motion</span> <span>tailwind css</span> <span>Chakra UI</span></p>
       <p>Back end:</p> <p><span>Node.js</span> <span>express</span> <span>graphql</span> <span>mongo db</span></p>
@@ -63,12 +63,12 @@ export default {
     },
     {
       question: "Planes de carrera?",
-      content: `<p>Me gustaria seguir especializandome en front end, aprendiendo nuevas tecnologias y campos como UI/UX design, seo, web performance y aplicaciones hibridas. Me mantengo abierto a cualquier oportunidad.</p>`,
+      content: `<p>Me gustaría seguir especializándome en front end, aprendiendo nuevas tecnologías y campos como UI/UX design, seo, web performance y aplicaciones hibridas. Me mantengo abierto a cualquier oportunidad.</p>`,
     },
     {
       question: "Contacto?",
       content: `<p>
-      Pueden encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank">GitHub</a> y descargar mi curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank">aqui</a>.
+      Pueden encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank">GitHub</a> y descargar mi curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank">aquí</a>.
       </p>`,
     },
   ],

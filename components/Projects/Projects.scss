@@ -131,13 +131,11 @@
 
             &:hover {
               transform: scale(1.2);
-              color: $color-terciary;
             }
 
             &--secondary {
               &:hover {
                 transform: scale(1.2);
-                color: $color-primary;
               }
             }
           }
@@ -194,14 +192,6 @@
 
       @include MediaQuery(700px) {
         grid-column: 1 / 13;
-      }
-
-      &__links {
-        &__icon {
-          &:hover {
-            color: $color-primary;
-          }
-        }
       }
     }
 

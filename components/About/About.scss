@@ -59,6 +59,20 @@
 
       &__accordionWrapper {
         width: 75%;
+
+        @include MediaQuery(768px) {
+          width: 100%;
+        }
+
+        h1 {
+          @include MediaQuery(335px) {
+            font-size: 2.5rem;
+          }
+
+          @include MediaQuery(600px) {
+            font-size: 3rem;
+          }
+        }
       }
 
       h1 {

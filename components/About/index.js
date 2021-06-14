@@ -4,29 +4,6 @@ import FadeInWhenVisible from "../../Animation/FadeInWhenVisible";
 import { Link } from "react-scroll";
 import Accordion from "../Accordion";
 
-const questions = [
-  {
-    question: "Quien soy?",
-    content:
-      "Mi nombre es Ivan, me dedico al desarrollo de aplicaciones web. Me especializo en desarrollo front end utilizando React, aunque planeo aprender Vue pronto. Tambien tengo conocimientos backend utilizando Node.js.",
-  },
-  {
-    question: "Habilidades tecnicas?",
-    content:
-      "Estas son las herramientas que utilizo para trabajar por el momento...",
-  },
-  {
-    question: "Planes de carrera?",
-    content:
-      "Me gustaria seguir especializandome en front end aprendiendo nuevas tecnologias y campos como ui/ux design, seo, web performance. Tambien me interesan las aplicaciones mobiles, aunque uno nunca sabe lo que depara el futuro y me mantengo abierto.",
-  },
-  {
-    question: "Quien soy?",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, earum cumque. Voluptate dolore voluptatibus sint iusto enim possimus consequatur illo.",
-  },
-];
-
 const About = ({ text }) => {
   const [selected, setSelected] = React.useState(false);
 
