@@ -1,4 +1,8 @@
 import Project from "./Project";
+import julyImage from "../../public/July-bookstore.png";
+import resourceManagerImage from "../../public/Resource-manager.png";
+import portfolioImage from "../../public/Portfolio.png";
+import blogImage from "../../public/Blog.png";
 
 const Projects = ({ text }) => {
   return (
@@ -9,7 +13,7 @@ const Projects = ({ text }) => {
         {/* Project 1 */}
         <Project
           fadeDirection="left"
-          imgPath="/July-bookstore.png"
+          imgPath={julyImage}
           imgAlt="Bookstore ecommerce"
           title={text.project1.title}
           description={text.project1.description}
@@ -30,7 +34,7 @@ const Projects = ({ text }) => {
         {/* Project 2 */}
         <Project
           fadeDirection="right"
-          imgPath="/Resource-manager.png"
+          imgPath={resourceManagerImage}
           imgAlt="Resource Manager"
           title={text.project2.title}
           description={text.project2.description}
@@ -50,7 +54,7 @@ const Projects = ({ text }) => {
         {/* Project 3 */}
         <Project
           fadeDirection="left"
-          imgPath="/Portfolio.png"
+          imgPath={portfolioImage}
           imgAlt="My portfolio"
           title={text.project3.title}
           description={text.project3.description}
@@ -60,7 +64,7 @@ const Projects = ({ text }) => {
         {/* Project 4 */}
         <Project
           fadeDirection="right"
-          imgPath="/Blog.png"
+          imgPath={blogImage}
           imgAlt="Tech blog"
           title={text.project4.title}
           description={text.project4.description}

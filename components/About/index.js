@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin, FaAngleDoubleUp } from "react-icons/fa";
-import FadeInWhenVisible from "../../Animation/FadeInWhenVisible";
+import FadeInWhenVisible from "../../animation/FadeInWhenVisible";
 import { Link } from "react-scroll";
 import Accordion from "../Accordion";
 
