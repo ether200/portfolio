@@ -12,8 +12,11 @@ const Home = ({ locale }) => {
   return (
     <>
       <Head>
-        <title>Iván Muntian</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Iván Muntian - Front end developer.</title>
+        <meta
+          name="description"
+          content="Ivan's portfolio to showcase his skills as front end developer. "
+        />
       </Head>
       <Navbar text={localeObj} />
       <Hero text={localeObj} />
