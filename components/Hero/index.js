@@ -1,4 +1,4 @@
-import FadeInWhenVisible from "../../animation/FadeInWhenVisible";
+import FadeInWhenVisible from "../../Animation/FadeInWhenVisible";
 import { Link } from "react-scroll";
 
 const Hero = ({ text }) => {

@@ -1,4 +1,4 @@
-import FadeInWhenVisible from "../../animation/FadeInWhenVisible";
+import FadeInWhenVisible from "../../Animation/FadeInWhenVisible";
 import Image from "next/image";
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa";
 
