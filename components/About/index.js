@@ -42,7 +42,7 @@ const About = ({ text }) => {
       </div>
       <footer className="about__center__footer">
         <div className="about__center__footer__links">
-          <a href="https://github.com/ether200" target="_blank">
+          <a href="https://github.com/ether200" target="_blank" rel="noreferer">
             <FaGithubSquare className="about__center__footer__links__icon" />
           </a>
           <Link to="hero" smooth={true} duration={500}>
@@ -51,6 +51,7 @@ const About = ({ text }) => {
           <a
             href="https://www.linkedin.com/in/ivan-muntian-1ba593208"
             target="_blank"
+            rel="noreferer"
           >
             <FaLinkedin className="about__center__footer__links__icon" />
           </a>

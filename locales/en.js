@@ -44,14 +44,14 @@ export default {
   faq: [
     {
       question: "Who am I?",
-      content: `<p>My name is Ivan and I work as a software developer. I specialize in front end development using React for now, planning to learn Vue.js soon. I also have back end knowledge using Node js.</p>`,
+      content: `<p>My name is Ivan and I work as a software developer. I specialize in front end development using React. I also have back end knowledge using Node js.</p>`,
     },
     {
       question: "Technical skills?",
       content: `<p>These are the tools that I work with.</p>
       <p>Front end:</p> <p><span>html</span> <span>css</span> <span>sass</span> <span>javascript</span> <span>typescript</span> <span>react</span> <span>next.js</span> <span>redux</span> <span>frame motion</span> <span>tailwind css</span> <span>Chakra UI</span></p>
-      <p>Back end:</p> <p><span>Node.js</span> <span>express</span> <span>graphql</span> <span>mongo db</span></p>
-      <p>Tools and Platforms:</p> <p><span>Git</span> <span>GitHub</span> <span>Figma</span> <span>Jest</span></p>
+      <p>Back end:</p> <p><span>Node.js</span> <span>express</span> <span>graphql</span> <span>mongo db</span> <span>PostgreSQL</span></p>
+      <p>Tools and Platforms:</p> <p><span>Git</span> <span>GitHub</span> <span>Figma</span> <span>Jest</span> <span>React-Testing-Library</span></p>
       `,
     },
     {
