@@ -3,6 +3,7 @@ import julyImage from "../../public/July-bookstore.png";
 import resourceManagerImage from "../../public/Resource-manager.png";
 import portfolioImage from "../../public/Portfolio.png";
 import blogImage from "../../public/Blog.png";
+import architectImage from '../../public/wal-architect.png';
 
 const Projects = ({ text }) => {
   return (
@@ -58,7 +59,7 @@ const Projects = ({ text }) => {
           imgAlt="My portfolio"
           title={text.project3.title}
           description={text.project3.description}
-          stack={["Framer Emotion", "i18n", "NextJS", "React-Scroll", "Sass"]}
+          stack={["Framer Motion", "i18n", "NextJS", "React-Scroll", "Sass"]}
           githubLink="https://github.com/ether200/portfolio.git"
         />
         {/* Project 4 */}
@@ -71,6 +72,17 @@ const Projects = ({ text }) => {
           stack={["NextJS", "Markdown", "MDX", "Tailwind CSS"]}
           githubLink="https://github.com/ether200/tech-blog"
           appLink="https://tech-blog-seven.vercel.app/"
+        />
+        {/* Project 5 */}
+        <Project
+          fadeDirection="left"
+          imgPath={architectImage}
+          imgAlt="architect image"
+          title={text.project5.title}
+          description={text.project5.description}
+          stack={["Apollo", "Chakra UI", "Framer Motion", "GraphQL", "NextJS", "Strapi", "TypeScript"]}
+          githubLink="https://github.com/ether200/w-architect"
+          appLink="https://w-architect.vercel.app/"
         />
       </div>
     </div>

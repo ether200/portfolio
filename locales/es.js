@@ -47,6 +47,13 @@ export default {
     </p>
     `,
   },
+  project5: {
+    title: "Wal Arquitecto",
+    description: `<p>
+    Landing page para un arquitecto hecha con Chakra UI, NextJS. La información proviene de una API creada con Strapi y GraphQL. Además contiene animaciones y transiciones de paginas hechas con Frame Motion.
+    </p>
+    `,
+  },
   faq: [
     {
       question: "Quien soy?",
@@ -72,21 +79,4 @@ export default {
       </p>`,
     },
   ],
-  //   aboutTitle: "Un poco sobre mí...",
-  //   aboutDescription: `<p>
-  //   Me considero una persona de trato simple, dispuesto a escuchar distintos
-  //   puntos de vista. Actualmente me encuentro en busca de mi primer experiencia laboral
-  //   en el mercado de desarrollo de aplicaciones Web. Me gustaría
-  //   formar parte de una organización que me permita expandir mis
-  //   conocimientos sobre la web y su vasto mundo de tecnologías.
-  //   <br />
-  //   <br />
-  //   También estoy interesado en poder relacionarme con distintos desarrolladores, crecer a nivel personal y profesional para poder brindar un mejor servicio.
-  //   Si les gustaría que forme parte de su equipo, les dejo un enlace con mi <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="_blank">curriculum</a>.
-  //   </p>
-  // `,
-  //   aboutSalute: `
-  //   <p>
-  //   Saludos, Iván.
-  //   </p>`,
 };
