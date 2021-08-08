@@ -41,6 +41,12 @@ export default {
     </p>
     `,
   },
+  project5: {
+    title: "Wal Architect",
+    description: `<p>
+    Landing page for an architect made with ChakraUI and NextJS. The data comes from an API that was made with Strapi and GraphQL. It also contains animations and page transicions that were done with Framer Motion.   </p>
+    `,
+  },
   faq: [
     {
       question: "Who am I?",

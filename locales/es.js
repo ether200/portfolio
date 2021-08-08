@@ -47,6 +47,13 @@ export default {
     </p>
     `,
   },
+  project5: {
+    title: "Wal Arquitecto",
+    description: `<p>
+    Landing page para un arquitecto hecha con Chakra UI, NextJS. La información proviene de una API creada con Strapi y GraphQL. Además contiene animaciones y transiciones de paginas hechas con Frame Motion.
+    </p>
+    `,
+  },
   faq: [
     {
       question: "Quien soy?",
