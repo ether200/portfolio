@@ -58,7 +58,8 @@
       z-index: 2;
 
       &__accordionWrapper {
-        width: 75%;
+        width: 85%;
+        margin-top: 4rem;
 
         @include MediaQuery(768px) {
           width: 100%;

@@ -7,8 +7,8 @@
 @mixin gradientBackground($pos1, $pos2) {
   background-image: radial-gradient(
     circle at $pos1 $pos2,
-    rgb(183, 48, 108),
-    rgb(30, 39, 97)
+    rgb(12, 20, 69),
+    rgb(71, 30, 84)
   );
 }
 

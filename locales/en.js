@@ -2,7 +2,7 @@ export default {
   nav1: "Projects",
   nav2: "About me",
   heroTitle: "Hello, I'm ",
-  heroDescription: "Front End Developer.",
+  heroDescription: "Software developer.",
   heroBtn: "See Projects",
   projectTitle: "Projects",
   project1: {
@@ -71,4 +71,16 @@ export default {
       </p>`,
     },
   ],
+  about: {
+    title: 'About me',
+    description: `<p>My name is Iván, a software developer specialized in front-end development. With 3 years of experience designing, developing, and deploying enterprise-level applications using React and Next.js.
+    Strong problem-solving skills and ability to work effectively in a team-based environment using agile methodologies.
+    </p>
+    <br />
+    <p>
+      I am currently open to new challenges and excited to explore potential positions where I can apply and further develop my abilities.
+    </p>
+    <br />
+    <p>You can find me in <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" class="text-terciary">LinkedIn</a>, see my projects in <a href="https://github.com/ether200" target="__blank" class="text-terciary">GitHub</a> and download my curriculum <a href="https://drive.google.com/file/d/1STEycHiZXUe2SiqiMPLBfFFadywFOGSE/view?usp=sharing" target="__blank" class="text-terciary">here</a>.</p>`,
+  }
 };

@@ -54,16 +54,10 @@ h6 {
   font-weight: 400;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  background: #ffffff;
+.text-sm {
+  font-size: 1.4rem;
 }
 
-::-webkit-scrollbar-track {
-  background-color: #ffffff;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #e52165;
-  border-radius: 10px;
+.text-terciary {
+  color: $color-terciary
 }

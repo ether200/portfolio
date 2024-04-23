@@ -6,6 +6,7 @@ import Accordion from "../Accordion";
 
 const About = ({ text }) => {
   const [selected, setSelected] = React.useState(false);
+  const currentYear = new Date().getFullYear();
 
   return (
     <div className="about" id="about">
@@ -24,19 +25,10 @@ const About = ({ text }) => {
       </div>
       <div className="about__center">
         <FadeInWhenVisible divClass="about__center__text" fadeFrom="top">
-          <h1>FAQ</h1>
+          <h1>{text.about.title}</h1>
           <div className="about__center__text--underline"></div>
           <div className="about__center__text__accordionWrapper">
-            {text.faq.map((q, i) => (
-              <Accordion
-                key={i}
-                index={i}
-                selected={selected}
-                setSelected={setSelected}
-                question={q.question}
-                content={q.content}
-              />
-            ))}
+          <div className="projects__center__project__info__text" dangerouslySetInnerHTML={{ __html: text.about.description }} />
           </div>
         </FadeInWhenVisible>
       </div>
@@ -57,7 +49,7 @@ const About = ({ text }) => {
           </a>
         </div>
         <div className="about__center__footer__underline"></div>
-        <p>&copy; 2021, Iván Muntian.</p>
+        <p>&copy; {currentYear}, Iván Muntian.</p>
       </footer>
     </div>
   );

@@ -11,6 +11,7 @@ const Project = ({
   stack,
   githubLink,
   appLink,
+  date
 }) => {
   return (
     <div className="projects__center__project">
@@ -43,6 +44,7 @@ const Project = ({
           ))}
         </div>
         <div className="projects__center__project__info__links">
+          <div>
           <a href={githubLink} target="_blank">
             <FaGithubSquare className="projects__center__project__info__links__icon" />
           </a>
@@ -51,6 +53,10 @@ const Project = ({
               <FaShareSquare className="projects__center__project__info__links__icon" />
             </a>
           )}
+          </div>
+          <p className="text-sm">
+          {date} 
+          </p>
         </div>
       </FadeInWhenVisible>
     </div>

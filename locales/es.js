@@ -2,7 +2,7 @@ export default {
   nav1: "Proyectos",
   nav2: "Sobre mí",
   heroTitle: "Hola, soy ",
-  heroDescription: "Desarrollador Front End.",
+  heroDescription: "Desarrollador de software.",
   heroBtn: "Ver proyectos",
   projectTitle: "Proyectos",
   project1: {
@@ -75,8 +75,20 @@ export default {
     {
       question: "Contacto?",
       content: `<p>
-      Pueden encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" rel="noreferer">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank" rel="noreferer">GitHub</a> y descargar mi curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank" rel="noreferer">aquí</a>.
+      Pueden encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" rel="noreferer" class="text-terciary">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank" rel="noreferer">GitHub</a> y descargar mi curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank" rel="noreferer">aquí</a>.
       </p>`,
     },
   ],
+  about: {
+    title: 'Sobre mí',
+    description: `<p>Mi nombre es Iván, un desarrollador de software especializado en desarrollo front-end. Con 3 años de experiencia diseñando, desarrollando y deployando aplicaciones nivel empresa usando React y Next.js.
+    Gran habilidad para la resolución de problemas y capacidad para trabajar eficazmente en un entorno de equipo utilizando metodologías ágiles.
+    </p>
+    <br />
+    <p>
+    Actualmente estoy abierto a nuevos desafíos y emocionado de explorar puestos potenciales donde pueda postularme y desarrollar aún más mis habilidades.
+    </p>
+    <br />
+    <p>Puedes encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" class="text-terciary">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank" class="text-terciary">GitHub</a> y descargar mi curriculum <a href="https://drive.google.com/file/d/1STEycHiZXUe2SiqiMPLBfFFadywFOGSE/view?usp=sharing" target="__blank" class="text-terciary">aquí</a>.</p>`,
+  }
 };

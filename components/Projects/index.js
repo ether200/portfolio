@@ -30,7 +30,7 @@ const Projects = ({ text }) => {
             "Yup",
           ]}
           githubLink="https://github.com/ether200/july-frontend.git"
-          appLink="https://july-frontend.vercel.app/"
+          date={'Aug 8, 2021'}
         />
         {/* Project 2 */}
         <Project
@@ -50,7 +50,7 @@ const Projects = ({ text }) => {
             "Typescript",
           ]}
           githubLink="https://github.com/ether200/resource-manager.git"
-          appLink="https://frozen-everglades-49253.herokuapp.com"
+          date={'May 19, 2021'}
         />
         {/* Project 3 */}
         <Project
@@ -61,6 +61,7 @@ const Projects = ({ text }) => {
           description={text.project3.description}
           stack={["Framer Motion", "i18n", "NextJS", "React-Scroll", "Sass"]}
           githubLink="https://github.com/ether200/portfolio.git"
+          date={'Aug 7, 2021'}
         />
         {/* Project 4 */}
         <Project
@@ -72,6 +73,7 @@ const Projects = ({ text }) => {
           stack={["NextJS", "Markdown", "MDX", "Tailwind CSS"]}
           githubLink="https://github.com/ether200/tech-blog"
           appLink="https://tech-blog-seven.vercel.app/"
+          date={'Aug 22, 2021'}
         />
         {/* Project 5 */}
         <Project
@@ -83,6 +85,7 @@ const Projects = ({ text }) => {
           stack={["Apollo", "Chakra UI", "Framer Motion", "GraphQL", "NextJS", "Strapi", "TypeScript"]}
           githubLink="https://github.com/ether200/w-architect"
           appLink="https://w-architect.vercel.app/"
+          date={'Aug 7, 2021'}
         />
       </div>
     </div>
