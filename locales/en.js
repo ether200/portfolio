@@ -38,6 +38,6 @@ export default {
     Strong problem-solving skills and ability to work effectively in a team-based environment using agile methodologies. I am currently open to new challenges and excited to explore potential positions where I can apply and further develop my abilities.
     </p>
     <br />
-    <p>You can find me in <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" class="text-terciary">LinkedIn</a>, see my projects in <a href="https://github.com/ether200" target="__blank" class="text-terciary">GitHub</a> and download my curriculum <a href="https://drive.google.com/file/d/1STEycHiZXUe2SiqiMPLBfFFadywFOGSE/view?usp=sharing" target="__blank" class="text-terciary">here</a>.</p>`,
+    <p>You can find me in <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" class="text-terciary">LinkedIn</a>, see my projects in <a href="https://github.com/ether200" target="__blank" class="text-terciary">GitHub</a> and download my curriculum <a href="https://drive.google.com/file/d/1XVHRjgjIb6Z8gY0b0TyO7AQVbEGCl_i2/view?usp=sharing" target="__blank" class="text-terciary">here</a>.</p>`,
   }
 };

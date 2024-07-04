@@ -42,6 +42,6 @@ export default {
     Actualmente estoy abierto a nuevos desafíos y emocionado de explorar puestos potenciales donde pueda postularme y desarrollar aún más mis habilidades.
     </p>
     <br />
-    <p>Puedes encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" class="text-terciary">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank" class="text-terciary">GitHub</a> y descargar mi curriculum <a href="https://drive.google.com/file/d/1STEycHiZXUe2SiqiMPLBfFFadywFOGSE/view?usp=sharing" target="__blank" class="text-terciary">aquí</a>.</p>`,
+    <p>Puedes encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" class="text-terciary">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank" class="text-terciary">GitHub</a> y descargar mi curriculum <a href="https://drive.google.com/file/d/1XVHRjgjIb6Z8gY0b0TyO7AQVbEGCl_i2/view?usp=sharing" target="__blank" class="text-terciary">aquí</a>.</p>`,
   }
 };
