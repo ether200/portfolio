@@ -4,8 +4,6 @@
   margin-top: -7rem;
   position: relative;
 
-  @include gradientBackground(top, left);
-
   &__center {
     @include centerElement;
     height: 100%;
@@ -17,6 +15,7 @@
     }
 
     &__content {
+      max-width: 375px;
       margin-top: -5rem;
       color: #fff;
       word-spacing: 0.5rem;
@@ -24,16 +23,17 @@
 
       h1 {
         font-weight: bold;
+        width: fit-content;
         span {
           color: $color-terciary;
         }
       }
 
-      h4 {
+      p {
         margin-bottom: 2rem;
+        font-size: 1.6rem;
       }
-
-      .btn {
+     .btn {
         display: inline-block;
         outline: none;
         width: 20rem;

@@ -1,84 +1,41 @@
 export default {
-  nav1: "Projects",
+  nav1: "Experience",
   nav2: "About me",
   heroTitle: "Hello, I'm ",
-  heroDescription: "Software developer.",
-  heroBtn: "See Projects",
-  projectTitle: "Projects",
-  project1: {
-    title: "July bookstore",
-    description: `<p>
-    July is an ecommerce platform that was done under the concept of SSR (Server-Side-Rendering), using the methods provided by NextJS
-    (React-Framework).
-    Some of it's functionalities are: account register, product listing by category, product page, cart system, virtual payment with stripe, and more.
-    <br />
-    You can see the app running and the code in the links below.
-  </p>`,
+  heroDescription: "Front end developer.",
+  timeline: {
+    title: 'Job experience',
+    experiences: [
+      {
+        company: 'Steplix',
+        role: 'SSR Front End Developer',
+        date: 'July, 2022',
+        tasks: [
+          'Contributed to the development of a fintech back office by resolving software issues and implementing new sections using React.',
+          'Develop and contributed to the development of a static PWA wallet app using Next.Js. Implemented notification and fingerprint authentication feature.',
+          'Develop new features such as biometric authentication and resolved software issues using React Native and socket. Also improved code quality by applying several refactors.',
+          'Applied a code migration of an e-commerce back office deployed in an AWS EC2 instance to a S3 bucket making it static.',
+          'Conduct code reviews and provide feedback to improve code quality of different projects.',
+          'Collaborate with cross-functional teams to identify and prioritize features and requirements.'
+        ]
+      },
+      {
+        company: 'Steplix',
+        role: 'JR Front End Developer',
+        date: 'Aug, 2021',
+        tasks: [
+          `Develop current company's static website internationalization logic and essential pages using Next.Js.`,
+          'Develop and mainteance of various projects collaborating closely with UI/UX and back end teams using React and Next.js as primary frameworks.',
+          'Troubleshot and resolved software defects and issues of a news website connected through a CMS using Next.Js SSR.',
+          'Contributed to the continuous improvement of software development processes, different tools and best practices.'
+        ]
+      },
+    ]
   },
-  project2: {
-    title: "Educational resource manager",
-    description: `<p>
-    My first project using the MERN stack. It was done to serve the purpose of managing my educational resources videos.
-    It supports the CRUD operations, account registry, form validation, video player.
-    <br />
-    The code for both the frontend and backend, including the running app are in the links below.
-  </p>`,
-  },
-  project3: {
-    title: "My portfolio",
-    description: `<p>
-    Static portfolio page made with NextJS. It supports translation to spanish and english thanks to i18n (internationalization) and it's built-in support with NextJS.
-    <br />
-    This project also contains some subtle animations implemented with Framer Motion. You can see the code in the link below.
-    </p>`,
-  },
-  project4: {
-    title: "Technology blog",
-    description: `<p>
-    Static page blog style done using Tailwind CSS and NextJS. It supports light / dark mode and it reads files written using Markdown.
-    <br />
-    New posts will be added soon.
-    </p>
-    `,
-  },
-  project5: {
-    title: "Wal Architect",
-    description: `<p>
-    Landing page for an architect made with ChakraUI and NextJS. The data comes from an API that was made with Strapi and GraphQL. It also contains animations and page transicions that were done with Framer Motion.   </p>
-    `,
-  },
-  faq: [
-    {
-      question: "Who am I?",
-      content: `<p>My name is Ivan and I work as a software developer. I specialize in front end development using React. I also have back end knowledge using Node js.</p>`,
-    },
-    {
-      question: "Technical skills?",
-      content: `<p>These are the tools that I work with.</p>
-      <p>Front end:</p> <p><span>html</span> <span>css</span> <span>sass</span> <span>javascript</span> <span>typescript</span> <span>react</span> <span>next.js</span> <span>redux</span> <span>frame motion</span> <span>tailwind css</span> <span>Chakra UI</span></p>
-      <p>Back end:</p> <p><span>Node.js</span> <span>express</span> <span>graphql</span> <span>mongo db</span> <span>PostgreSQL</span></p>
-      <p>Tools and Platforms:</p> <p><span>Git</span> <span>GitHub</span> <span>Figma</span> <span>Jest</span> <span>React-Testing-Library</span></p>
-      `,
-    },
-    {
-      question: "Career plans?",
-      content: `<p>I'd like to keep majoring in front end development, learning new technologies and fields like UI/UX design, seo, web performance and hybrid applications. I'm always open to new opportunities.</p>`,
-    },
-    {
-      question: "Contact?",
-      content: `<p>
-      You can find me in <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank">LinkedIn</a>, see my projects in <a href="https://github.com/ether200" target="__blank">GitHub</a> and download my curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank">here</a>.
-      </p>`,
-    },
-  ],
   about: {
     title: 'About me',
-    description: `<p>My name is Iván, a software developer specialized in front-end development. With 3 years of experience designing, developing, and deploying enterprise-level applications using React and Next.js.
-    Strong problem-solving skills and ability to work effectively in a team-based environment using agile methodologies.
-    </p>
-    <br />
-    <p>
-      I am currently open to new challenges and excited to explore potential positions where I can apply and further develop my abilities.
+    description: `<p>My name is Iván, a software developer specialized in front-end development based in Buenos Aires, Argentina. With 3 years of experience designing, developing, and deploying enterprise-level applications using React and Next.js.
+    Strong problem-solving skills and ability to work effectively in a team-based environment using agile methodologies. I am currently open to new challenges and excited to explore potential positions where I can apply and further develop my abilities.
     </p>
     <br />
     <p>You can find me in <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" class="text-terciary">LinkedIn</a>, see my projects in <a href="https://github.com/ether200" target="__blank" class="text-terciary">GitHub</a> and download my curriculum <a href="https://drive.google.com/file/d/1STEycHiZXUe2SiqiMPLBfFFadywFOGSE/view?usp=sharing" target="__blank" class="text-terciary">here</a>.</p>`,

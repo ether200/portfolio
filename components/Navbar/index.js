@@ -16,7 +16,7 @@ const Navbar = ({ text }) => {
       <div className="navbar__center">
         <ul>
           <li>
-            <Link to="projects" smooth={true} duration={500}>
+            <Link to="timeline" smooth={true} duration={500} offset={-25}>
               {text.nav1}
             </Link>
           </li>

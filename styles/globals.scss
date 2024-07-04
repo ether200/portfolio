@@ -12,7 +12,6 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   height: 100%;
-  background-color: #fff;
 }
 
 body {
@@ -25,12 +24,12 @@ body {
   line-height: 1.5;
 }
 
-p {
-  word-spacing: 2px;
+#__next {
+  background: linear-gradient(178.1deg, rgb(23, 20, 69) 8.5%, rgb(23, 20, 69) 82.4%);
 }
 
-ul {
-  list-style: none;
+p {
+  word-spacing: 2px;
 }
 
 a:link,
@@ -52,6 +51,8 @@ h5,
 h6 {
   font-family: $font-secondary;
   font-weight: 400;
+  color: #fff;
+  word-spacing: 2px;
 }
 
 .text-sm {
@@ -60,4 +61,9 @@ h6 {
 
 .text-terciary {
   color: $color-terciary
+}
+
+.group:last-child .group-last\:before\:hidden::before {
+  content: var(--tw-content);
+  display: none;
 }

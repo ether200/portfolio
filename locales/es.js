@@ -1,87 +1,40 @@
 export default {
-  nav1: "Proyectos",
+  nav1: "Experiencia",
   nav2: "Sobre mí",
   heroTitle: "Hola, soy ",
-  heroDescription: "Desarrollador de software.",
-  heroBtn: "Ver proyectos",
-  projectTitle: "Proyectos",
-  project1: {
-    title: "July bookstore",
-    description: `<p>
-    July es una plataforma ecommerce hecha bajo los conceptos SSR
-    (Server-Side-Rendering), utilizando los métodos que provee NextJS
-    (React-Framework).
-    Entre sus funcionalidades se encuentran: registro de cuentas, listado
-    de productos por categorías, página de producto, sistema de carro, pagos
-    virtuales con stripe, entre otras.
-    <br />
-    En la parte inferior se encuentran los enlaces para ver la aplicación y
-    el codigo.
-    </p>`,
+  heroDescription: "Desarrollador front end.",
+  timeline: {
+    title: 'Experiencia laboral',
+    experiences: [
+      {
+        company: 'Steplix',
+        role: 'Desarrollador Front End SSR',
+        date: 'Jul, 2022',
+        tasks: [
+          'Contribuí al desarrollo del back office de una fintech resolviendo problemas de software e implementando nuevas secciones usando React.',
+          'Desarrollé y contribuí al desarrollo de una aplicación de billetera PWA estática utilizando Next.js. Implementé la función de notificaciones y autenticación por huella dactilar.',
+          'Desarrollé nuevas funcionalidades como la autenticación biométrica y resolví problemas de software usando React Native y sockets. Además, mejoré la calidad del código aplicando varias refactorizaciones.',
+          'Realicé la migración de código de un back office de un e-commerce desplegada en una instancia AWS EC2 a un bucket S3 para hacerla estática.',
+          'Realicé revisiones de código y proporcioné retroalimentación para mejorar la calidad del código en diferentes proyectos.',
+          'Colaboré con equipos multifuncionales para identificar y priorizar características y requisitos.'
+        ]
+      },
+      {
+        company: 'Steplix',
+        role: 'Desarrollador Front End JR',
+        date: 'Ago, 2021',
+        tasks: [
+          `Desarrollé la lógica de internacionalización del sitio web estático de la empresa actual y páginas esenciales utilizando Next.js.`,
+          'Desarrollé y mantuve varios proyectos colaborando estrechamente con equipos de UI/UX y backend utilizando React y Next.js como frameworks principales.',
+          'Resolví problemas y defectos de software de un sitio web de noticias conectado a través de un CMS utilizando Next.js SSR.',
+          'Contribuí a la mejora continua de los procesos de desarrollo de software, diferentes herramientas y mejores prácticas.'
+        ]
+      },
+    ]
   },
-  project2: {
-    title: "Gestor de recursos educativos",
-    description: `<p>
-    Mi primer proyecto utilizando el stack MERN. Hecho con el fin de gestionar mis recursos educativos en formato de video.
-    Soporta las operaciones CRUD, registro de cuentas, validación de formularios, reproductor de video.
-    <br />
-    En la parte inferior se encuentran enlaces de los códigos
-    frontend, backend, y también para ver la aplicación en
-    funcionamiento.
-  </p>`,
-  },
-  project3: {
-    title: "Mi portafolio",
-    description: `<p>
-    Página portafolio estática hecha con NextJS. Soporta traducción al ingles y español gracias a i18n (internacionalización) y su integración con NextJS.
-    <br />
-    Además, este proyecto contiene unas sutiles animaciones implementadas con Framer Motion. Puedes ver el codigo en el enlace de la parte inferior.
-    </p>`,
-  },
-  project4: {
-    title: "Blog tecnológico",
-    description: `<p>
-    Página estática estilo blog hecha con Tailwind CSS y NextJS. Soporta modo light / dark y lectura de archivos escritos en lenguage de marcado (Markdown).
-    <br />
-    Nuevos posts se agregaran proximamente.
-    </p>
-    `,
-  },
-  project5: {
-    title: "Wal Arquitecto",
-    description: `<p>
-    Landing page para un arquitecto hecha con Chakra UI, NextJS. La información proviene de una API creada con Strapi y GraphQL. Además contiene animaciones y transiciones de paginas hechas con Frame Motion.
-    </p>
-    `,
-  },
-  faq: [
-    {
-      question: "Quien soy?",
-      content:
-        "<p>Mi nombre es Iván y me dedico al desarrollo de aplicaciones web. Me especializo en desarrollo front end utilizando React. También tengo conocimientos back end utilizando Node js.</p>",
-    },
-    {
-      question: "Habilidades técnicas?",
-      content: `<p>Estas son las herramientas que uso para trabajar.</p>
-      <p>Front end:</p> <p><span>html</span> <span>css</span> <span>sass</span> <span>javascript</span> <span>typescript</span> <span>react</span> <span>next.js</span> <span>redux</span> <span>frame motion</span> <span>tailwind css</span> <span>Chakra UI</span></p>
-      <p>Back end:</p> <p><span>Node.js</span> <span>express</span> <span>graphql</span> <span>mongo db</span> <span>PostgreSQL</span></p>
-      <p>Herramientas y plataformas:</p> <p><span>Git</span> <span>GitHub</span> <span>Figma</span> <span>Jest</span> <span>React-Testing-Library</span></p>
-      `,
-    },
-    {
-      question: "Planes de carrera?",
-      content: `<p>Me gustaría seguir especializándome en front end, aprendiendo nuevas tecnologías y campos como UI/UX design, seo, web performance y aplicaciones hibridas. Me mantengo abierto a cualquier oportunidad.</p>`,
-    },
-    {
-      question: "Contacto?",
-      content: `<p>
-      Pueden encontrarme en <a href="https://www.linkedin.com/in/ivan-muntian-1ba593208" target="__blank" rel="noreferer" class="text-terciary">LinkedIn</a>, ver mis proyectos en <a href="https://github.com/ether200" target="__blank" rel="noreferer">GitHub</a> y descargar mi curriculum <a href="https://docs.google.com/document/d/1GGZRyR0SqzUMIhrdCHYyNdagtSIt1wPGyfOLsQWsdUw/view?usp=sharing" target="__blank" rel="noreferer">aquí</a>.
-      </p>`,
-    },
-  ],
   about: {
     title: 'Sobre mí',
-    description: `<p>Mi nombre es Iván, un desarrollador de software especializado en desarrollo front-end. Con 3 años de experiencia diseñando, desarrollando y deployando aplicaciones nivel empresa usando React y Next.js.
+    description: `<p>Mi nombre es Iván, un desarrollador de software especializado en desarrollo front-end radicado en Buenos Aires, Argentina. Con 3 años de experiencia diseñando, desarrollando y deployando aplicaciones nivel empresa usando React y Next.js.
     Gran habilidad para la resolución de problemas y capacidad para trabajar eficazmente en un entorno de equipo utilizando metodologías ágiles.
     </p>
     <br />

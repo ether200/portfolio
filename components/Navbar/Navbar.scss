@@ -13,13 +13,13 @@
     justify-content: flex-end;
 
     @include MediaQuery(600px) {
-      justify-content: center;
       width: 90vw;
     }
 
     ul {
       display: flex;
       align-items: center;
+      list-style: none;
 
       li:not(:last-of-type) {
         margin-right: 2rem;
@@ -55,13 +55,12 @@
       }
 
       a {
+        font-family: $font-primary;
         color: #fff;
         padding: 0.3rem 0;
-        font-family: $font-primary;
         font-size: 1.4rem;
         font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.4rem;
+        letter-spacing: 0.2rem;
         cursor: pointer;
 
         &::after {
@@ -72,9 +71,11 @@
           background-color: $color-terciary;
           transition: width 0.3s linear;
         }
-
-        &:hover::after {
-          width: 100%;
+        
+        @media (hover:hover) {
+          &:hover::after {
+            width: 100%;
+          }
         }
       }
     }
