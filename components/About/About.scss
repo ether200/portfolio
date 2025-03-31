@@ -21,7 +21,7 @@
       justify-content: center;
       align-items: center;
       color: rgb(209 213 219);
-      line-height: 3.5rem;
+      line-height: 2;
 
       h2 {
         align-self: flex-start;
@@ -59,7 +59,7 @@
       &__content {
         p {
           font-weight: 600;
-          line-height: 3rem;
+          line-height: 2;
           word-spacing: 2px;
           max-width: 100rem;
 
@@ -75,7 +75,7 @@
         a {
           font-weight: 600;
           font-family: $font-primary;
-          line-height: 2.5rem;
+          line-height: 2;
           word-spacing: 2px;
           color: $color-terciary;
         }

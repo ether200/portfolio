@@ -14,7 +14,7 @@ const Timeline = ({ text }) => {
               <time>{exp.date}</time>
               <h4 className="timeline__group__info--title">{exp.role}</h4>
             </div>
-            <ul style={{ marginLeft: '1.5rem' }}>
+            <ul style={{ marginLeft: '1.5rem', lineHeight: 2 }}>
               {exp.tasks.map(task => (<li key={task}>{task}</li>))}
             </ul>
           </div>            

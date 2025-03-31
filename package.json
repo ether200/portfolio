@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fontsource/archivo": "^4.4.5",
+    "@fontsource/merriweather": "^5.2.6",
     "@fontsource/open-sans": "^4.4.5",
     "@vercel/analytics": "^0.1.10",
     "framer-motion": "^3.3.0",

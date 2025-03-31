@@ -33,7 +33,7 @@ const About = ({ text }) => {
             <FaLinkedin className="about__center__footer__links__icon" />
           </a>
         </div>
-        <p>&copy; {currentYear}, Iván Muntian.</p>
+        <p className="text-white">&copy; {currentYear}, Iván Muntian.</p>
       </footer>
     </div>
   );

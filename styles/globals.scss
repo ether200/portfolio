@@ -25,7 +25,9 @@ body {
 }
 
 #__next {
-  background: linear-gradient(178.1deg, rgb(23, 20, 69) 8.5%, rgb(23, 20, 69) 82.4%);
+  // background: linear-gradient(178.1deg, #121212 8.5%, #1A1A1A 50%, #232323 82.4%);
+  background: linear-gradient(178.1deg, #0B0B0D 8.5%, #151517 50%, #1E1E20 82.4%);
+  // background: linear-gradient(178.1deg, #0E0E0E 8.5%, #181818 50%, #222222 82.4%);
 }
 
 p {
@@ -61,6 +63,10 @@ h6 {
 
 .text-terciary {
   color: $color-terciary
+}
+
+.text-white {
+  color: #fff;
 }
 
 .group:last-child .group-last\:before\:hidden::before {
