@@ -31,7 +31,6 @@ const Navbar = ({ text }) => {
               alt="Switch language"
               width={22}
               height={22}
-              layout="fixed"
             />
           </li>
         </ul>
